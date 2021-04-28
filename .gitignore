@@ -130,3 +130,4 @@ dmypy.json
 Data/city_temperature.csv
 Data/login.py
 login.py
+config.js
