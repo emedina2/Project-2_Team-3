@@ -10,7 +10,7 @@ var myMap = L.map("map", {
     tileSize: 512,
     maxZoom: 18,
     zoomOffset: -1,
-    id: "mapbox/streets-v11",
+    id: "mapbox/outdoors-v11",
     accessToken: API_KEY
   }).addTo(myMap);
   
