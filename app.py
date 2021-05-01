@@ -1,10 +1,11 @@
 import sqlalchemy
 import psycopg2
+import numpy as np
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session, scoped_session, sessionmaker
 from sqlalchemy import create_engine, func, inspect, Table, MetaData, Column, String
 from login import login, password
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template, redirect, jsonify
 
 ##DB connection
 engine = create_engine('postgresql://' + login + ":" + password + '@localhost:5432/WeatherData')
@@ -22,9 +23,10 @@ print(engine.table_names())
 print(session)
 
 ## set data from Postgres as variable to send to app.js ##
-Africa = session.query(Weather).limit(10).all()
-for data in Africa:
-    print(data)
+AfricaData = session.query(Weather).limit(10).all()
+session.close()
+Africa = jsonify(list(np.ravel(AfricaData)))
+print(Africa)
 ## Flask App ##
 app = Flask(__name__)
 
