@@ -14,21 +14,36 @@ var myMap = L.map("map", {
     accessToken: API_KEY
   }).addTo(myMap);
 
-var pg = require('pg')
-var connection = 
 
-var jsonpath = "data/random_sample.json";
-d3.json(jsonpath).then(function(response) {
-  console.log(response);
-  var heatArray = [];
-  for (var i = 0; i < response.length; i++) {
-    var location = response[i].Region;
-    if (location) {
-      heatArray.push([location.coordinates[1], location.coordinates[0]]);
-    }
-  }
-  var heat = L.heatLayer(heatArray, {
-    radius: 20,
-    blur: 35
-  }).addTo(myMap);
-});
+/// ##Tiffany's Test Code
+// var jsonpath = "data/random_sample.json";
+// d3.json(jsonpath).then(function(response) {
+//   console.log(response);
+//   var heatArray = [];
+//   for (var i = 0; i < response.length; i++) {
+//     var location = response[i].Region;
+//     if (location) {
+//       heatArray.push([location.coordinates[1], location.coordinates[0]]);
+//     }
+//   }
+//   var heat = L.heatLayer(heatArray, {
+//     radius: 20,
+//     blur: 35
+//   }).addTo(myMap);
+// });
+
+
+
+//Connect to PostgreSQL database:
+
+var pg = require('pg')
+var connection = 'postgresql://' + login + ":" + password + '@localhost:5432/WeatherData'
+var client = new pg.Client(connection);
+client.connect();
+
+var test = client.query(
+  "Select * FROM weather WHERE region = Africa LIMIT 100");
+
+query.on('row', function(row) {
+  console.log(row)
+})
