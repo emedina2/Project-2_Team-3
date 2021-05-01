@@ -10,9 +10,17 @@ from flask import Flask, render_template, redirect
 engine = create_engine('postgresql://' + login + ":" + password + '@localhost:5432/WeatherData')
 Base = automap_base()
 Base.prepare(engine, reflect=True)
+session = Session(engine)
+
+## set data from Postgres as variable to send to app.js ##
+weatherdata = session.execute("Select * FROM weather")
+print('data is: {weatherdata}')
 
 
+## Flask App ##
 app = Flask(__name__)
+
+
 
 @app.route("/")
 def home():
@@ -21,7 +29,7 @@ def home():
 
 @app.route("/Map")
 def index():
-    return render_template("index.html")
+    return render_template("index.html", weatherdata = weatherdata)
 
 
 
