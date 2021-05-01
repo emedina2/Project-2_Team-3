@@ -17,10 +17,9 @@ Base.prepare(engine, reflect=True)
 Weather = Base.classes.weather
 
 ## set data from Postgres as variable to send to app.js ##
+# Africa = session.query()
 
 
-
-Africa = session.query()
 ## Flask App ##
 app = Flask(__name__)
 
