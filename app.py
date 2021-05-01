@@ -22,8 +22,9 @@ print(engine.table_names())
 print(session)
 
 ## set data from Postgres as variable to send to app.js ##
-# Africa = session.query()
-
+Africa = session.query(Weather).limit(10).all()
+for data in Africa:
+    print(data)
 ## Flask App ##
 app = Flask(__name__)
 
