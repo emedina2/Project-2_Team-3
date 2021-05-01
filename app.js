@@ -13,4 +13,22 @@ var myMap = L.map("map", {
     id: "mapbox/outdoors-v11",
     accessToken: API_KEY
   }).addTo(myMap);
-  
+
+var pg = require('pg')
+var connection = 
+
+var jsonpath = "data/random_sample.json";
+d3.json(jsonpath).then(function(response) {
+  console.log(response);
+  var heatArray = [];
+  for (var i = 0; i < response.length; i++) {
+    var location = response[i].Region;
+    if (location) {
+      heatArray.push([location.coordinates[1], location.coordinates[0]]);
+    }
+  }
+  var heat = L.heatLayer(heatArray, {
+    radius: 20,
+    blur: 35
+  }).addTo(myMap);
+});
