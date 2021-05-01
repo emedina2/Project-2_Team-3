@@ -2,13 +2,15 @@ import sqlalchemy
 import psycopg2
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session, scoped_session, sessionmaker
-from sqlalchemy import create_engine, func, inspect, Table, MetaData
+from sqlalchemy import create_engine, func, inspect, Table, MetaData, Column, String
 from login import login, password
 from flask import Flask, render_template, redirect
 
 ##DB connection
 engine = create_engine('postgresql://' + login + ":" + password + '@localhost:5432/WeatherData')
 Base = automap_base()
+metadata = MetaData()
+weather = Table('weather',metadata, Column('ID', String, primary_key=True), autoload=True, autoload_with=engine)
 Base.prepare(engine, reflect=True)
 
 
