@@ -1,6 +1,6 @@
 var myMap = L.map("map", {
-    center: [45.52, -122.67],
-    zoom: 13
+    center: [45, -100],
+    zoom: 8
   });
   
   // Adding a tile layer (the background map image) to our map
@@ -34,16 +34,6 @@ var myMap = L.map("map", {
 
 
 
-//Connect to PostgreSQL database:
+//Grab data from PostgreSQL database:
 
-var pg = require('pg')
-var connection = 'postgresql://' + login + ":" + password + '@localhost:5432/WeatherData'
-var client = new pg.Client(connection);
-client.connect();
-
-var test = client.query(
-  "Select * FROM weather WHERE region = Africa LIMIT 100");
-
-query.on('row', function(row) {
-  console.log(row)
-})
+var weatherData = '{{weatherData}}';
