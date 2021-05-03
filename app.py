@@ -3,30 +3,53 @@ import psycopg2
 import numpy as np
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session, scoped_session, sessionmaker
-from sqlalchemy import create_engine, func, inspect, Table, MetaData, Column, String
+from sqlalchemy import create_engine, func, inspect, Table, MetaData, Column, String, update
 from login import login, password
 from flask import Flask, render_template, redirect, jsonify
+from geopy.geocoders import Nominatim
+
+
 
 ##DB connection
 engine = create_engine('postgresql://' + login + ":" + password + '@localhost:5432/WeatherData')
 Base = automap_base()
 metadata = MetaData()
 weather = Table('weather',metadata, Column('ID', String, primary_key=True), autoload=True, autoload_with=engine)
+locations = Table('locations',metadata, Column('city_state_country', String, primary_key=True), autoload=True, autoload_with=engine)
 Base.prepare(engine, reflect=True)
 
 
 ##DB Table
 Weather = Base.classes.weather
+Locations = Base.classes.locations
 session = Session(engine)
-print(Weather)
-print(engine.table_names())
-print(session)
+# print(Weather)
+# print(engine.table_names())
+# print(Locations)
 
 ## set data from Postgres as variable to send to app.js ##
-AfricaData = session.query(Weather).limit(10).all()
+
+## Get Lat/LNG for cities
+geolocation = Nominatim(user_agent="Eric_M")
+cities = session.query(Locations.city).all()
+countries = session.query(Locations.country).all()
+
+
+for x in range(len(cities)):
+    city = cities[x][0]
+    country = countries[x][0]
+    print(city)
+    print(country)
+    city_country = city + ',' + country
+    coordinates = geolocation.geocode(city_country)
+    latitude = coordinates.latitude
+    longitude = coordinates.longitude
+    print(f'latitude: {latitude} longitude: {longitude}')
+
+
+
+
 session.close()
-Africa = jsonify(list(np.ravel(AfricaData)))
-print(Africa)
 ## Flask App ##
 app = Flask(__name__)
 

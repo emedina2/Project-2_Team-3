@@ -1,6 +1,6 @@
 var myMap = L.map("map", {
     center: [45, -100],
-    zoom: 8
+    zoom: 3
   });
   
   // Adding a tile layer (the background map image) to our map
@@ -17,23 +17,25 @@ var myMap = L.map("map", {
 
 /// ##Tiffany's Test Code
 // var jsonpath = "data/random_sample.json";
-// d3.json(jsonpath).then(function(response) {
-//   console.log(response);
-//   var heatArray = [];
-//   for (var i = 0; i < response.length; i++) {
-//     var location = response[i].Region;
-//     if (location) {
-//       heatArray.push([location.coordinates[1], location.coordinates[0]]);
-//     }
-//   }
-//   var heat = L.heatLayer(heatArray, {
-//     radius: 20,
-//     blur: 35
-//   }).addTo(myMap);
+
 // });
 
 
 
-//Grab data from PostgreSQL database:
+function temperatureMap(weatherData){
+  d3.json(weatherData).then(function(response) {
+    console.log(response);
+    var heatArray = [];
+    for (var i = 0; i < response.length; i++) {
+      var location = response[i].Region;
+      if (location) {
+        heatArray.push([location.coordinates[1], location.coordinates[0]]);
+      }
+    }
+    var heat = L.heatLayer(heatArray, {
+      radius: 20,
+      blur: 35
+    }).addTo(myMap);
+}
 
-var weatherData = '{{weatherData}}';
+
