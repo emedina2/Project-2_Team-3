@@ -1,0 +1,72 @@
+{
+    "Middle East": {
+        "region": "Middle East",
+        "country": "United Arab Emirates",
+        "state": "NULL",
+        "city": "Dubai",
+        "month": "10",
+        "day": "10",
+        "year": "1999",
+        "avgtemperature": "85.3"
+    },
+    "North America": {
+        "region": "North America",
+        "country": "US",
+        "state": "District of Columbia",
+        "city": "Washington",
+        "month": "6",
+        "day": "5",
+        "year": "2014",
+        "avgtemperature": "74"
+    },
+    "Australia/South Pacific": {
+        "region": "Australia/South Pacific",
+        "country": "Australia",
+        "state": "NULL",
+        "city": "Melbourne",
+        "month": "1",
+        "day": "18",
+        "year": "2012",
+        "avgtemperature": "75.5"
+    },
+    "South/Central America & Carribean": {
+        "region": "South/Central America & Carribean",
+        "country": "Equador",
+        "state": "NULL",
+        "city": "Guayaquil",
+        "month": "10",
+        "day": "4",
+        "year": "1998",
+        "avgtemperature": "76.8"
+    },
+    "Europe": {
+        "region": "Europe",
+        "country": "The Netherlands",
+        "state": "NULL",
+        "city": "Amsterdam",
+        "month": "8",
+        "day": "10",
+        "year": "2006",
+        "avgtemperature": "58.6"
+    },
+    "Africa": {
+        "region": "Africa",
+        "country": "Zambia",
+        "state": "NULL",
+        "city": "Lusaka",
+        "month": "5",
+        "day": "18",
+        "year": "1995",
+        "avgtemperature": "63.8"
+    },
+    "Asia": {
+        "region": "Asia",
+        "country": "Nepal",
+        "state": "NULL",
+        "city": "Katmandu",
+        "month": "10",
+        "day": "11",
+        "year": "1995",
+        "avgtemperature": "71.5"
+    }
+}
