@@ -15,8 +15,7 @@ var myMap = L.map("map", {
   }).addTo(myMap);
 
 
-/// ##Tiffany's Test Code
-// var jsonpath = "data/random_sample.json";
+var weatherData = "/api";
 
 // });
 
