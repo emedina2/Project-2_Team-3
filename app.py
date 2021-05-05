@@ -30,10 +30,13 @@ session = Session(engine)
 # print(engine.table_names())
 # print(Locations)
 
-## set data from Postgres as variable to send to app.js ##
-test = session.query(monthly)
-for data in test:
-    print(data.id)
+##function to create dictionary items for json object
+def create_json(dict, key, value):
+    dict[key].append(value)
+
+
+
+
 
 ## Flask App ##
 app = Flask(__name__)
@@ -43,18 +46,24 @@ def home():
     
     return render_template("home.html")
 
-# @app.route("/api")
-# def getdata():
-
-    # weather_data = [{
-    #     "city": city,
-    #     "year": year,
-    #     "month": month,
-    #     "average_temp": average_temp,
-    #     "latitude" : latitude,
-    #     "longitude" : longitude
-    # }]
-    # return jsonify(weather_data)
+@app.route("/api/monthly")
+def getdata():
+    results = session.query(monthly)
+    monthly_weather_data = []
+    for result in results:
+        monthly_weather_data.append({ \
+        "city" : result.city,
+        "state" : result.state,
+        "country": result.country,
+        "month" : result.month,
+        "year" : result.year,
+        "month_avg_temp" : result.avg,
+        "latitude": result.latitude,
+        "longitude": result.longitude
+        })
+    session.close()
+    # print(monthly_weather_data)
+    return jsonify(monthly_weather_data)
 
 @app.route("/Graphs")
 def showgraphs():

@@ -15,26 +15,18 @@ var myMap = L.map("map", {
   }).addTo(myMap);
 
 
-var weatherData = "/api";
-
-// });
+var monthlyWeatherData = "/api/monthly";
 
 
-
-function temperatureMap(weatherData){
-  d3.json(weatherData).then(function(response) {
+d3.json(monthlyWeatherData).then(function(response) {
     console.log(response);
     var heatArray = [];
     for (var i = 0; i < response.length; i++) {
-      var location = response[i].Region;
-      if (location) {
-        heatArray.push([location.coordinates[1], location.coordinates[0]]);
+      heatArray.push([response[i].latitude, response[i].longitude]);
       }
-    }
+    console.log(heatArray)    
     var heat = L.heatLayer(heatArray, {
       radius: 20,
       blur: 35
     }).addTo(myMap);
-}
-
-
+});
