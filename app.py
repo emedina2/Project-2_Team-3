@@ -15,8 +15,11 @@ import json
 engine = create_engine('postgresql://' + login + ":" + password + '@localhost:5432/WeatherData')
 Base = automap_base()
 metadata = MetaData()
-weather = Table('weather',metadata, Column('ID', String, primary_key=True), autoload=True, autoload_with=engine)
-locations = Table('locations',metadata, Column('city_state_country', String, primary_key=True), autoload=True, autoload_with=engine)
+# weather = Table('weather',metadata, Column('ID', String, primary_key=True), autoload=True, autoload_with=engine)
+# locations = Table('locations',metadata, Column('city_state_country', String, primary_key=True), autoload=True, autoload_with=engine)
+monthly = Table('monthly_averages',metadata, Column('id', String, primary_key=True), autoload=True, autoload_with=engine)
+yearly = Table('yearly_averages',metadata, Column('id', String, primary_key=True), autoload=True, autoload_with=engine)
+
 Base.prepare(engine, reflect=True)
 
 
@@ -28,6 +31,53 @@ session = Session(engine)
 # print(Locations)
 
 ## set data from Postgres as variable to send to app.js ##
+test = session.query(monthly)
+for data in test:
+    print(data.id)
+
+## Flask App ##
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    
+    return render_template("home.html")
+
+# @app.route("/api")
+# def getdata():
+
+    # weather_data = [{
+    #     "city": city,
+    #     "year": year,
+    #     "month": month,
+    #     "average_temp": average_temp,
+    #     "latitude" : latitude,
+    #     "longitude" : longitude
+    # }]
+    # return jsonify(weather_data)
+
+@app.route("/Graphs")
+def showgraphs():
+    return render_template("visualizations.html")
+
+@app.route("/Map")
+def index():
+    
+    return render_template("index.html")
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+
+
+
+
+
+
+
+
+
+
 
 ## Get Lat/LNG for cities
 # apikey = api_key
@@ -54,35 +104,3 @@ session = Session(engine)
 #         print(e)
 
 # session.close()
-## Flask App ##
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    
-    return render_template("home.html")
-
-@app.route("/api")
-def getdata():
-
-    weather_data = [{
-        "city": city,
-        "year": year,
-        "month": month,
-        "average_temp": average_temp,
-        "latitude" : latitude,
-        "longitude" : longitude
-    }]
-    return jsonify(weather_data)
-
-@app.route("/Graphs")
-def showgraphs():
-    return render_template("visualizations.html")
-
-@app.route("/Map")
-def index():
-    
-    return render_template("index.html")
-
-if __name__ == "__main__":
-    app.run(debug=True)
