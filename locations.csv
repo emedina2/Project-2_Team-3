@@ -1,0 +1,326 @@
+city,state,country,id,latitude,longitude
+Tirana,,Albania,1,41.32743835,19.81641304
+Brasilia,,Brazil,21,-15.76251146,-47.87189083
+Toronto,,Canada,25,43.6882155,-79.37672507
+Bangui,,Central African Republic,35,4.396019499,18.56483716
+Brazzaville,,Congo,42,-4.264510582,15.24659404
+Santo Domingo,,Dominican Republic,49,18.48833656,-69.92877927
+Addis Ababa,,Ethiopia,53,8.984854059,38.75890957
+Frankfurt,,Germany,60,50.13400282,8.759907801
+Bissau,,Guinea-Bissau,67,11.72427805,-15.53371446
+Port au Prince,,Haiti,69,18.59720827,-72.30232159
+Tegucigalpa,,Honduras,70,14.0632582,-87.17029933
+Bombay (Mumbai),,India,77,19.08479322,72.88461065
+Chennai (Madras),,India,76,13.17731936,80.26417782
+Tel Aviv,,Israel,80,32.12321037,34.68308394
+Bishkek,,Kyrgyzstan,91,42.93223694,74.57643716
+Mexico City,,Mexico,102,19.47045427,-99.00581908
+Ulan-bator,,Mongolia,103,47.94602571,106.9127243
+Windhoek,,Namibia,107,-22.56120464,17.06531378
+Moscow,,Russia,125,55.86682765,37.61092538
+Dhahran,,Saudi Arabia,128,26.23685269,50.0416121
+Capetown,,South Africa,134,-33.89544564,18.49606763
+Colombo,,Sri Lanka,139,6.927631275,79.85929483
+Dusanbe,,Tajikistan,147,38.56153988,68.78545445
+Amsterdam,,The Netherlands,150,52.38672634,4.915626291
+Ashabad,,Turkmenistan,155,38.00169401,58.23474255
+Jacksonville,Florida,US,240,30.33108912,-81.6277254
+Roanoke,Virginia,US,242,37.43579186,-79.90983567
+Chicago,Illinois,US,244,42.10020251,-87.64492255
+Honolulu,Hawaii,US,246,21.31904903,-157.8657748
+San Diego,California,US,248,32.72378179,-117.1653143
+Detroit,Michigan,US,250,42.32877113,-83.04839994
+Lubbock,Texas,US,252,33.60786457,-101.8560473
+Hartford Springfield,Connecticut,US,254,42.25885357,-72.61593394
+Cincinnati,Ohio,US,256,39.09294286,-84.50175372
+Macon,Georgia,US,258,32.84173281,-83.62971996
+Fargo,North Dakota,US,260,46.87364607,-96.73052255
+Denver,Colorado,US,262,39.77376351,-104.9956492
+Nashville,Tennessee,US,264,36.19538003,-86.7833038
+Washington,District of Columbia,US,266,38.87472684,-77.02237593
+Spokane,Washington,US,268,47.65940882,-117.4303476
+Yuma,Arizona,US,270,32.69346047,-114.6233941
+Raleigh Durham,North Carolina,US,272,35.91796627,-78.86524586
+Asheville,North Carolina,US,274,35.5963829,-82.54625225
+Columbus,Ohio,US,276,40.00723728,-83.02668044
+Pittsburgh,Pennsylvania,US,278,40.44121338,-80.00042014
+Amarillo,Texas,US,280,35.22264304,-101.8276072
+Atlanta,Georgia,US,282,33.75159902,-84.38912888
+Reno,Nevada,US,284,39.54705612,-119.8068123
+Dallas Ft Worth,Texas,US,285,32.75653793,-96.9366305
+Orlando,Florida,US,287,28.53841787,-81.36198008
+Concord,New Hampshire,US,289,43.21218883,-71.54018627
+Medford,Oregon,US,291,42.32323939,-122.8875888
+Washington DC,Maryland,US,292,38.90720197,-77.03792372
+El Paso,Texas,US,294,31.78426634,-106.489293
+Grand Rapids,Michigan,US,296,43.01059969,-85.56301033
+Toledo,Ohio,US,298,41.67668933,-83.53171101
+Tucson,Arizona,US,302,32.25414478,-111.0010329
+Columbus,Georgia,US,304,32.48324686,-84.92237052
+Huntsville,Alabama,US,306,34.76412313,-86.56613739
+Daytona Beach,Florida,US,308,29.210907,-81.02854699
+Akron Canton,Ohio,US,309,41.07370161,-81.50288853
+Savannah,Georgia,US,311,32.11902831,-81.14577336
+San Juan Puerto Rico,Additional Territories,US,313,18.46573275,-66.11624639
+Chattanooga,Tennessee,US,169,35.0498862,-85.30255646
+Austin,Texas,US,300,30.2888475,-97.72122266
+Fairbanks,Alaska,US,166,64.83705836,-147.7280578
+Rhode Island,Rhode Island,US,174,41.55908893,-71.2653202
+Tallahassee,Florida,US,178,30.4392115,-84.26117805
+St Louis,Missouri,US,181,38.64128948,-90.26369123
+Paducah,Kentucky,US,185,37.08433454,-88.60178344
+Charleston,West Virginia,US,189,38.38050777,-81.57542025
+Wilkes Barre,Pennsylvania,US,190,41.24620271,-75.87912393
+West Palm Beach,Florida,US,193,26.71589571,-80.05781843
+Tampa St. Petersburg,Florida,US,195,27.7948365,-82.58565279
+Waco,Texas,US,199,31.57156919,-97.08099762
+Midland Odessa,Texas,US,202,31.84934479,-102.3419514
+Dayton,Ohio,US,206,39.75963013,-84.18364891
+North Platte,Nebraska,US,210,41.13866333,-100.7584556
+Elkins,West Virginia,US,214,38.94082362,-79.84419861
+Colorado Springs,Colorado,US,218,38.89448089,-104.787948
+Las Vegas,Nevada,US,222,36.11025052,-115.1777761
+New York City,New York,US,226,40.72843895,-73.96851248
+Minneapolis St. Paul,Minnesota,US,227,44.97992489,-93.26905798
+Sault Ste Marie,Michigan,US,228,46.49760571,-84.34319874
+Anchorage,Alaska,US,230,61.23664549,-149.7920719
+Des Moines,Iowa,US,232,41.58751155,-93.62496486
+Rockford,Illinois,US,234,42.26864545,-89.08797889
+San Angelo,Texas,US,236,31.46334269,-100.4446181
+Atlantic City,New Jersey,US,238,39.36060227,-74.42918826
+San Francisco,California,US,156,37.77588819,-122.4483699
+Kiev,,Ukraine,315,50.51419366,30.54891148
+Dubai,,United Arab Emirates,317,25.29309398,55.25401588
+Belfast,,United Kingdom,319,54.60116323,-5.930070686
+Montvideo,,Uruguay,320,-34.86664012,-56.1799149
+Caracas,,Venezuela,322,10.48852458,-66.91237667
+Belgrade,,Yugoslavia,324,44.84160369,20.48919306
+Algiers,,Algeria,2,36.7525,3.042
+Buenos Aires,,Argentina,3,-34.6132,-58.3772
+Perth,,Australia,7,-31.9333,115.8333
+Canberra,,Australia,4,-35.2835,149.1281
+Sydney,,Australia,5,-33.8679,151.2073
+Melbourne,,Australia,6,28.0836,-80.6081
+Brisbane,,Australia,8,-27.4679,153.0281
+Vienna,,Austria,9,48.2085,16.3721
+Nassau,,Bahamas,10,40.7507,-73.5829
+Manama,,Bahrain,11,26.2154,50.5832
+Dhaka,,Bangladesh,12,23.7104,90.4074
+Bridgetown,,Barbados,13,13.1,-59.6167
+Minsk,,Belarus,14,53.9,27.5667
+Brussels,,Belgium,15,50.8504,4.3488
+Belize City,,Belize,16,17.4995,-88.1976
+Cotonou,,Benin,17,6.3654,2.4183
+Hamilton,,Bermuda,18,39.1834,-84.5333
+La Paz,,Bolivia,19,-16.5,-68.15
+Sao Paulo,,Brazil,22,-23.5475,-46.6361
+Rio de Janeiro,,Brazil,20,-22.9028,-43.2075
+Sofia,,Bulgaria,23,42.6975,23.3242
+Bujumbura,,Burundi,24,-3.3822,29.3644
+Montreal,,Canada,31,45.5088,-73.5878
+Vancouver,,Canada,32,49.2497,-123.1193
+Ottawa,,Canada,30,45.4112,-75.6981
+Calgary,,Canada,26,51.0501,-114.0853
+Regina,,Canada,34,50.4501,-104.6178
+Winnipeg,,Canada,28,49.8844,-97.147
+Halifax,,Canada,27,44.6453,-63.5724
+Edmonton,,Canada,33,53.5501,-113.4687
+Quebec,,Canada,29,46.8123,-71.2145
+Shenyang,,China,39,41.7922,123.4328
+Guangzhou,,China,36,23.1167,113.25
+Shanghai,,China,40,31.2222,121.4581
+Beijing,,China,38,39.9075,116.3972
+Chengdu,,China,37,30.6667,104.0667
+Bogota,,Colombia,41,4.6097,-74.0817
+San Jose,,Costa Rica,43,37.3394,-121.895
+Zagreb,,Croatia,44,45.8131,15.9775
+Havana,,Cuba,45,23.133,-82.383
+Nicosia,,Cyprus,46,35.1667,33.3667
+Prague,,Czech Republic,47,50.088,14.4208
+Copenhagen,,Denmark,48,55.6759,12.5655
+Cairo,,Egypt,50,30.0626,31.2497
+Guayaquil,,Equador,51,-2.1667,-79.9
+Quito,,Equador,52,-0.2299,-78.5249
+Helsinki,,Finland,54,60.1695,24.9355
+Paris,,France,55,48.8534,2.3488
+Bordeaux,,France,56,44.8404,-0.5805
+Libreville,,Gabon,57,0.3925,9.4537
+Banjul,,Gambia,58,13.45,-16.5833
+Tbilisi,,Georgia,59,41.6941,44.8337
+Munich,,Germany,62,48.1374,11.5755
+Hamburg,,Germany,61,53.55,10
+Bonn,,Germany,63,50.7333,7.1
+Athens,,Greece,64,37.9795,23.7162
+Guatemala City,,Guatemala,65,14.6407,-90.5133
+Conakry,,Guinea,66,9.538,-13.6773
+Georgetown,,Guyana,68,5.4112,100.3354
+Hong Kong,,Hong Kong,71,22.2855,114.1577
+Budapest,,Hungary,72,47.498,19.0399
+Reykjavik,,Iceland,73,64.1355,-21.8954
+Calcutta,,India,74,22.5697,88.3697
+Delhi,,India,75,28.6667,77.2167
+Jakarta,,Indonesia,78,-6.2146,106.8451
+Dublin,,Ireland,79,37.7021,-121.9358
+Milan,,Italy,81,45.4643,9.1895
+Rome,,Italy,82,34.257,-85.1647
+Abidjan,,Ivory Coast,83,5.3094,-4.0197
+Sapporo,,Japan,85,43.0642,141.3469
+Tokyo,,Japan,86,35.6895,139.6917
+Osaka,,Japan,84,34.6937,135.5022
+Amman,,Jordan,87,31.9552,35.945
+Almaty,,Kazakhstan,88,43.25,76.95
+Nairobi,,Kenya,89,-1.2833,36.8167
+Kuwait,,Kuwait,90,29.3697,47.9783
+Vientiane,,Laos,92,17.9667,102.6
+Riga,,Latvia,93,57,24.0833
+Beirut,,Lebanon,94,33.8889,35.4944
+Skopje,,Macedonia,95,42,21.4333
+Antananarivo,,Madagascar,96,-18.9137,47.5361
+Lilongwe,,Malawi,97,-13.9669,33.7873
+Kuala Lumpur,,Malaysia,98,3.1431,101.6865
+Nouakchott,,Mauritania,99,18.0858,-15.9785
+Guadalajara,,Mexico,100,20.6667,-103.3333
+Monterrey,,Mexico,101,25.6667,-100.3167
+Rabat,,Morocco,104,33.9911,-6.8401
+Maputo,,Mozambique,105,-25.9653,32.5892
+Rangoon,,Myanmar (Burma),106,16.8053,96.1561
+Katmandu,,Nepal,108,27.7167,85.3167
+Auckland,,New Zealand,109,-36.8667,174.7667
+Managua,,Nicaragua,110,12.1328,-86.2504
+Niamey,,Nigeria,112,13.5137,2.1098
+Lagos,,Nigeria,111,6.5833,3.75
+Pyongyang,,North Korea,113,39.0339,125.7543
+Oslo,,Norway,114,59.9127,10.7461
+Muscat,,Oman,115,23.6139,58.5922
+Islamabad,,Pakistan,116,33.7104,73.1338
+Karachi,,Pakistan,117,24.9056,67.0822
+Panama City,,Panama,118,8.9936,-79.5197
+Lima,,Peru,119,-12.0432,-77.0282
+Manila,,Philippines,120,14.6042,120.9822
+Warsaw,,Poland,121,52.2298,21.0118
+Lisbon,,Portugal,122,38.7167,-9.1333
+Doha,,Qatar,123,25.2867,51.5333
+Bucharest,,Romania,124,44.4323,26.1063
+Yerevan,,Russia,126,40.1811,44.5136
+Riyadh,,Saudi Arabia,127,24.6877,46.7219
+Dakar,,Senegal,129,14.6937,-17.4441
+Pristina,,Serbia-Montenegro,130,42.6727,21.1669
+Freetown,,Sierra Leone,131,8.484,-13.2299
+Singapore,,Singapore,132,1.2897,103.8501
+Bratislava,,Slovakia,133,48.1482,17.1067
+Seoul,,South Korea,135,37.5683,126.9778
+Barcelona,,Spain,138,41.3888,2.159
+Bilbao,,Spain,136,43.2627,-2.9253
+Madrid,,Spain,137,40.4165,-3.7026
+Paramaribo,,Suriname,140,5.8667,-55.1667
+Stockholm,,Sweden,141,59.3326,18.0649
+Zurich,,Switzerland,143,47.3667,8.55
+Bern,,Switzerland,144,46.9481,7.4474
+Geneva,,Switzerland,142,41.8875,-88.3054
+Damascus,,Syria,145,33.5102,36.2913
+Taipei,,Taiwan,146,25.0478,121.5319
+Dar Es Salaam,,Tanzania,148,-6.8235,39.2695
+Bangkok,,Thailand,149,13.75,100.5167
+Lome,,Togo,151,6.1375,1.2123
+Tunis,,Tunisia,152,34,9
+Istanbul,,Turkey,153,41.0351,28.9833
+Ankara,,Turkey,154,39.9199,32.8543
+Allentown,Pennsylvania,US,224,40.6022,-75.4713
+Eugene,Oregon,US,163,44.0505,-123.0951
+Green Bay,Wisconsin,US,165,44.5126,-88.0126
+Juneau,Alaska,US,159,58.3019,-134.4197
+Columbia,South Carolina,US,167,34.0007,-81.0343
+Los Angeles,California,US,171,34.0549,-118.2445
+Newark,New Jersey,US,173,40.7357,-74.1724
+Albany,New York,US,160,42.6512,-73.755
+Topeka,Kansas,US,164,39.049,-95.6776
+Montgomery,Alabama,US,162,32.367,-86.3006
+Duluth,Minnesota,US,179,46.7729,-92.1251
+Fresno,California,US,182,36.7394,-119.7848
+Helena,Montana,US,186,46.5927,-112.0361
+Mobile,Alabama,US,175,30.6944,-88.0431
+Wilmington,Delaware,US,188,39.7459,-75.5466
+Boston,Massachusetts,US,191,42.3603,-71.0583
+Wichita Falls,Texas,US,196,33.9137,-98.4934
+Harrisburg,Pennsylvania,US,198,40.2663,-76.8861
+Portland,Maine,US,200,43.661,-70.2549
+Cheyenne,Wyoming,US,205,41.14,-104.8202
+Kansas City,Missouri,US,207,39.0845,-94.563
+Tupelo,Mississippi,US,209,34.2576,-88.7034
+Madison,Wisconsin,US,213,43.0748,-89.3838
+Seattle,Washington,US,215,47.6038,-122.3301
+Milwaukee,Wisconsin,US,219,43.035,-87.9225
+Evansville,Indiana,US,221,37.9748,-87.5558
+Phoenix,Arizona,US,158,33.4486,-112.0773
+Grand Junction,Colorado,US,170,39.064,-108.5507
+New Orleans,Louisiana,US,176,29.9499,-90.0701
+South Bend,Indiana,US,183,41.6834,-86.25
+Rapid City,South Dakota,US,187,44.0812,-103.228
+Bridgeport,Connecticut,US,197,41.167,-73.2048
+Jackson,Mississippi,US,201,43.48,-110.7618
+Caribou,Maine,US,204,46.8606,-68.012
+Billings,Montana,US,208,45.7875,-108.4961
+Norfolk,Virginia,US,216,36.8463,-76.2929
+Omaha,Nebraska,US,220,41.2587,-95.9379
+Springfield,Missouri,US,229,42.1015,-72.5898
+Boise,Idaho,US,239,43.6166,-116.2008
+Brownsville,Texas,US,235,25.914,-97.4891
+Greensboro,North Carolina,US,241,36.0726,-79.792
+Cleveland,Ohio,US,243,41.5052,-81.6934
+Indianapolis,Indiana,US,247,39.7683,-86.1584
+Peoria,Illinois,US,249,40.6939,-89.5891
+Burlington,Vermont,US,253,43.3249,-79.7967
+Syracuse,New York,US,255,43.0481,-76.1474
+Sioux Falls,South Dakota,US,259,43.55,-96.7003
+Flagstaff,Arizona,US,261,35.1995,-111.6514
+Little Rock,Arkansas,US,265,34.7465,-92.2896
+Birmingham,Alabama,US,267,33.5207,-86.8024
+Buffalo,New York,US,271,42.8867,-78.8784
+Springfield,Illinois,US,273,42.1015,-72.5898
+Baton Rouge,Louisiana,US,275,30.4507,-91.1546
+Erie,Pennsylvania,US,279,42.1291,-80.0852
+Lincoln,Nebraska,US,281,53.2336,-0.5392
+Youngstown,Ohio,US,286,41.1036,-80.652
+Wichita,Kansas,US,288,37.6922,-97.3375
+Houston,Texas,US,290,29.7589,-95.3677
+Lansing,Michigan,US,299,42.7338,-84.5554
+Memphis,Tennessee,US,303,35.149,-90.0516
+Rochester,New York,US,297,44.0233,-92.463
+Portland,Oregon,US,305,43.661,-70.2549
+Pocatello,Idaho,US,310,42.8689,-112.4401
+Tulsa,Oklahoma,US,312,36.1557,-95.9929
+Abilene,Texas,US,233,32.4465,-99.7333
+Great Falls,Montana,US,168,47.5049,-111.2919
+Charlotte,North Carolina,US,184,35.2271,-80.8431
+Charleston,South Carolina,US,203,32.7876,-79.9403
+Lexington,Kentucky,US,217,38.0464,-84.497
+Casper,Wyoming,US,157,42.8666,-106.3131
+Corpus Christi,Texas,US,225,27.8003,-97.3956
+Louisville,Kentucky,US,237,38.2542,-85.7594
+Flint,Michigan,US,251,43.0172,-83.7236
+Knoxville,Tennessee,US,263,35.9604,-83.921
+Miami Beach,Florida,US,277,45.4514,-84.5564
+Fort Smith,Arkansas,US,293,35.3872,-94.4249
+Baltimore,Maryland,US,307,39.2909,-76.6108
+Salt Lake City,Utah,US,161,40.767,-111.8904
+Shreveport,Louisiana,US,283,32.5222,-93.7652
+Sacramento,California,US,301,38.5816,-121.4944
+Philadelphia,Pennsylvania,US,295,39.9524,-75.1636
+San Antonio,Texas,US,180,-33.5809,-71.6132
+Lake Charles,Louisiana,US,192,30.2266,-93.2174
+Pueblo,Colorado,US,212,38.2544,-104.6091
+Oklahoma City,Oklahoma,US,177,35.473,-97.5171
+Richmond,Virginia,US,194,49.1633,-123.1369
+Yakima,Washington,US,211,46.6016,-120.5108
+Goodland,Kansas,US,223,39.3508,-101.7102
+Bismarck,North Dakota,US,172,46.8083,-100.7837
+Salem,Oregon,US,231,44.9392,-123.0331
+Sioux City,Iowa,US,245,42.4967,-96.4059
+Fort Wayne,Indiana,US,257,41.08,-85.1386
+Albuquerque,New Mexico,US,269,35.0841,-106.651
+Kampala,,Uganda,314,0.3163,32.5822
+Abu Dhabi,,United Arab Emirates,316,24.4667,54.3667
+London,,United Kingdom,318,51.5085,-0.1257
+Tashkent,,Uzbekistan,321,41.2646,69.2163
+Hanoi,,Vietnam,323,21.0245,105.8412
+Lusaka,,Zambia,325,-15.4067,28.2871

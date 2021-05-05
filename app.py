@@ -75,7 +75,9 @@ def getdata():
     }]
     return jsonify(weather_data)
 
-
+@app.route("/Graphs")
+def showgraphs():
+    return render_template("visualizations.html")
 
 @app.route("/Map")
 def index():
