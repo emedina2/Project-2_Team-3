@@ -49,7 +49,7 @@ function setBubblePlot(chosenCountry) {
     var data = [trace1];
 
     var layout = {
-        title: 'Temperature according to Country<br>'+ chosenCountry,
+        title: 'Year 1995: Temperature according to Country<br>'+ chosenCountry,
         xaxis: {
             title: "Month of the year (1 = Jan, 2 = Feb, etc.)"
         },

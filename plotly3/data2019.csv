@@ -1,0 +1,468 @@
+region,country,state,city,month,day,year,avgtemperature
+Africa,Algeria,NULL,Algiers,1,1,2019,50.6
+Africa,Algeria,NULL,Algiers,2,1,2019,61.8
+Africa,Algeria,NULL,Algiers,3,1,2019,51.4
+Africa,Algeria,NULL,Algiers,4,1,2019,60.5
+Africa,Algeria,NULL,Algiers,5,1,2019,61.5
+Africa,Algeria,NULL,Algiers,6,1,2019,65.6
+Africa,Algeria,NULL,Algiers,7,1,2019,77.5
+Africa,Algeria,NULL,Algiers,8,1,2019,91.6
+Africa,Algeria,NULL,Algiers,9,1,2019,77.7
+Africa,Algeria,NULL,Algiers,10,1,2019,72.4
+Africa,Algeria,NULL,Algiers,11,1,2019,70
+Africa,Algeria,NULL,Algiers,12,1,2019,56.7
+Africa,Egypt,NULL,Cairo,1,1,2019,57.9
+Africa,Egypt,NULL,Cairo,2,1,2019,62.7
+Africa,Egypt,NULL,Cairo,3,1,2019,58.9
+Africa,Egypt,NULL,Cairo,4,1,2019,62.5
+Africa,Egypt,NULL,Cairo,5,1,2019,86.1
+Africa,Egypt,NULL,Cairo,6,1,2019,85.6
+Africa,Egypt,NULL,Cairo,7,1,2019,86.4
+Africa,Egypt,NULL,Cairo,8,1,2019,86
+Africa,Egypt,NULL,Cairo,9,1,2019,84.7
+Africa,Egypt,NULL,Cairo,10,1,2019,79
+Africa,Egypt,NULL,Cairo,11,1,2019,72.4
+Africa,Egypt,NULL,Cairo,12,1,2019,68
+Africa,Ethiopia,NULL,Addis Ababa,1,1,2019,58.6
+Africa,Ethiopia,NULL,Addis Ababa,2,1,2019,63.5
+Africa,Ethiopia,NULL,Addis Ababa,3,1,2019,71.5
+Africa,Ethiopia,NULL,Addis Ababa,4,1,2019,67
+Africa,Ethiopia,NULL,Addis Ababa,6,1,2019,62.3
+Africa,Ethiopia,NULL,Addis Ababa,7,1,2019,63.9
+Africa,Ethiopia,NULL,Addis Ababa,8,1,2019,60.9
+Africa,Ethiopia,NULL,Addis Ababa,9,1,2019,62.8
+Africa,Ethiopia,NULL,Addis Ababa,10,1,2019,60.7
+Africa,Ethiopia,NULL,Addis Ababa,11,1,2019,64.2
+Africa,Ethiopia,NULL,Addis Ababa,12,1,2019,61.3
+Africa,Kenya,NULL,Nairobi,1,1,2019,67.6
+Africa,Kenya,NULL,Nairobi,2,1,2019,73.3
+Africa,Kenya,NULL,Nairobi,3,1,2019,75.3
+Africa,Kenya,NULL,Nairobi,4,1,2019,73.3
+Africa,Kenya,NULL,Nairobi,5,1,2019,70.1
+Africa,Kenya,NULL,Nairobi,6,1,2019,68.6
+Africa,Kenya,NULL,Nairobi,7,1,2019,67.5
+Africa,Kenya,NULL,Nairobi,8,1,2019,66.9
+Africa,Kenya,NULL,Nairobi,9,1,2019,66.6
+Africa,Kenya,NULL,Nairobi,10,1,2019,69.5
+Africa,Kenya,NULL,Nairobi,11,1,2019,67.7
+Africa,Kenya,NULL,Nairobi,12,1,2019,65
+Africa,Morocco,NULL,Rabat,1,1,2019,50.6
+Africa,Morocco,NULL,Rabat,2,1,2019,57.7
+Africa,Morocco,NULL,Rabat,3,1,2019,53.3
+Africa,Morocco,NULL,Rabat,4,1,2019,59.5
+Africa,Morocco,NULL,Rabat,5,1,2019,65
+Africa,Morocco,NULL,Rabat,6,1,2019,71.5
+Africa,Morocco,NULL,Rabat,7,1,2019,69
+Africa,Morocco,NULL,Rabat,8,1,2019,73.7
+Africa,Morocco,NULL,Rabat,9,1,2019,72.6
+Africa,Morocco,NULL,Rabat,10,1,2019,66.9
+Africa,Morocco,NULL,Rabat,11,1,2019,67.1
+Africa,Morocco,NULL,Rabat,12,1,2019,55.8
+Africa,Madagascar,NULL,Antananarivo,1,1,2019,71.6
+Africa,Madagascar,NULL,Antananarivo,2,1,2019,70.3
+Africa,Madagascar,NULL,Antananarivo,3,1,2019,71.4
+Africa,Madagascar,NULL,Antananarivo,4,1,2019,72.4
+Africa,Madagascar,NULL,Antananarivo,5,1,2019,64
+Africa,Madagascar,NULL,Antananarivo,6,1,2019,61.1
+Africa,Madagascar,NULL,Antananarivo,7,1,2019,59.4
+Africa,Madagascar,NULL,Antananarivo,8,1,2019,63.3
+Africa,Madagascar,NULL,Antananarivo,9,1,2019,63.2
+Africa,Madagascar,NULL,Antananarivo,10,1,2019,69
+Africa,Madagascar,NULL,Antananarivo,11,1,2019,69.1
+Africa,Madagascar,NULL,Antananarivo,12,1,2019,69.3
+Africa,Nigeria,NULL,Niamey,1,1,2019,76.2
+Africa,Nigeria,NULL,Niamey,2,1,2019,80
+Africa,Nigeria,NULL,Niamey,3,1,2019,78.6
+Africa,Nigeria,NULL,Niamey,4,1,2019,95.9
+Africa,Nigeria,NULL,Niamey,5,1,2019,98.2
+Africa,Nigeria,NULL,Niamey,6,1,2019,84.7
+Africa,Nigeria,NULL,Niamey,7,1,2019,94.5
+Africa,Nigeria,NULL,Niamey,8,1,2019,83.5
+Africa,Nigeria,NULL,Niamey,9,1,2019,89.9
+Africa,Nigeria,NULL,Niamey,10,1,2019,85.9
+Africa,Nigeria,NULL,Niamey,11,1,2019,91.6
+Africa,Nigeria,NULL,Niamey,12,1,2019,84.6
+Africa,Nigeria,NULL,Lagos,1,1,2019,84.9
+Africa,Nigeria,NULL,Lagos,2,1,2019,84.1
+Africa,Nigeria,NULL,Lagos,3,1,2019,80.6
+Africa,Nigeria,NULL,Lagos,4,1,2019,86.3
+Africa,Nigeria,NULL,Lagos,5,1,2019,86.6
+Africa,Nigeria,NULL,Lagos,6,1,2019,79.5
+Africa,Nigeria,NULL,Lagos,7,1,2019,77.5
+Africa,Nigeria,NULL,Lagos,8,1,2019,78.6
+Africa,Nigeria,NULL,Lagos,9,1,2019,78.2
+Africa,Nigeria,NULL,Lagos,10,1,2019,76
+Africa,Nigeria,NULL,Lagos,11,1,2019,81
+Africa,Nigeria,NULL,Lagos,12,1,2019,83.3
+Asia,China,NULL,Beijing,1,1,2019,22.7
+Asia,China,NULL,Beijing,2,1,2019,25.3
+Asia,China,NULL,Beijing,3,1,2019,43.2
+Asia,China,NULL,Beijing,4,1,2019,52
+Asia,China,NULL,Beijing,5,1,2019,70.6
+Asia,China,NULL,Beijing,6,1,2019,74.3
+Asia,China,NULL,Beijing,7,1,2019,86.1
+Asia,China,NULL,Beijing,8,1,2019,84.6
+Asia,China,NULL,Beijing,9,1,2019,76.4
+Asia,China,NULL,Beijing,10,1,2019,71.6
+Asia,China,NULL,Beijing,11,1,2019,55.4
+Asia,China,NULL,Beijing,12,1,2019,32.8
+Asia,Hong Kong,NULL,Hong Kong,1,1,2019,55.3
+Asia,Hong Kong,NULL,Hong Kong,2,1,2019,64.7
+Asia,Hong Kong,NULL,Hong Kong,3,1,2019,71.6
+Asia,Hong Kong,NULL,Hong Kong,4,1,2019,69.6
+Asia,Hong Kong,NULL,Hong Kong,5,1,2019,75.7
+Asia,Hong Kong,NULL,Hong Kong,6,1,2019,83
+Asia,Hong Kong,NULL,Hong Kong,7,1,2019,88.2
+Asia,Hong Kong,NULL,Hong Kong,8,1,2019,80.4
+Asia,Hong Kong,NULL,Hong Kong,9,1,2019,84.5
+Asia,Hong Kong,NULL,Hong Kong,10,1,2019,87.3
+Asia,Hong Kong,NULL,Hong Kong,11,1,2019,79.7
+Asia,Hong Kong,NULL,Hong Kong,12,1,2019,69.8
+Asia,India,NULL,Delhi,1,1,2019,55
+Asia,India,NULL,Delhi,2,1,2019,61.3
+Asia,India,NULL,Delhi,3,1,2019,61.3
+Asia,India,NULL,Delhi,4,1,2019,81.8
+Asia,India,NULL,Delhi,5,1,2019,94
+Asia,India,NULL,Delhi,6,1,2019,99.7
+Asia,India,NULL,Delhi,7,1,2019,98.2
+Asia,India,NULL,Delhi,8,1,2019,91.2
+Asia,India,NULL,Delhi,9,1,2019,85.8
+Asia,India,NULL,Delhi,10,1,2019,83.6
+Asia,India,NULL,Delhi,11,1,2019,77.8
+Asia,India,NULL,Delhi,12,1,2019,60.2
+Asia,Indonesia,NULL,Jakarta,1,1,2019,79.4
+Asia,Indonesia,NULL,Jakarta,2,1,2019,81.3
+Asia,Indonesia,NULL,Jakarta,3,1,2019,81
+Asia,Indonesia,NULL,Jakarta,4,1,2019,81.5
+Asia,Indonesia,NULL,Jakarta,5,1,2019,83.2
+Asia,Indonesia,NULL,Jakarta,6,1,2019,85.4
+Asia,Indonesia,NULL,Jakarta,7,1,2019,84.1
+Asia,Indonesia,NULL,Jakarta,8,1,2019,83.6
+Asia,Indonesia,NULL,Jakarta,9,1,2019,83.6
+Asia,Indonesia,NULL,Jakarta,10,1,2019,84.3
+Asia,Indonesia,NULL,Jakarta,11,1,2019,83.5
+Asia,Indonesia,NULL,Jakarta,12,1,2019,85.7
+Asia,Japan,NULL,Tokyo,1,1,2019,45.1
+Asia,Japan,NULL,Tokyo,2,1,2019,40.2
+Asia,Japan,NULL,Tokyo,3,1,2019,49.3
+Asia,Japan,NULL,Tokyo,4,1,2019,46.5
+Asia,Japan,NULL,Tokyo,5,1,2019,64.7
+Asia,Japan,NULL,Tokyo,6,1,2019,71.6
+Asia,Japan,NULL,Tokyo,7,1,2019,74
+Asia,Japan,NULL,Tokyo,8,1,2019,86.9
+Asia,Japan,NULL,Tokyo,9,1,2019,81.7
+Asia,Japan,NULL,Tokyo,10,1,2019,75.7
+Asia,Japan,NULL,Tokyo,11,1,2019,64.3
+Asia,Japan,NULL,Tokyo,12,1,2019,50.7
+Asia,Kazakhstan,NULL,Almaty,1,1,2019,23.7
+Asia,Kazakhstan,NULL,Almaty,2,1,2019,22.7
+Asia,Kazakhstan,NULL,Almaty,3,1,2019,39.9
+Asia,Kazakhstan,NULL,Almaty,4,1,2019,53.8
+Asia,Kazakhstan,NULL,Almaty,5,1,2019,59.2
+Asia,Kazakhstan,NULL,Almaty,6,1,2019,77.9
+Asia,Kazakhstan,NULL,Almaty,7,1,2019,77.6
+Asia,Kazakhstan,NULL,Almaty,8,1,2019,86.2
+Asia,Kazakhstan,NULL,Almaty,9,1,2019,68.1
+Asia,Kazakhstan,NULL,Almaty,10,1,2019,46.6
+Asia,Kazakhstan,NULL,Almaty,11,1,2019,55
+Asia,Kazakhstan,NULL,Almaty,12,1,2019,21.7
+Asia,Laos,NULL,Vientiane,1,1,2019,69.7
+Asia,Laos,NULL,Vientiane,2,1,2019,77.1
+Asia,Laos,NULL,Vientiane,3,1,2019,81.7
+Asia,Laos,NULL,Vientiane,4,1,2019,85.3
+Asia,Laos,NULL,Vientiane,5,1,2019,91.7
+Asia,Laos,NULL,Vientiane,6,1,2019,80.2
+Asia,Laos,NULL,Vientiane,7,1,2019,84.5
+Asia,Laos,NULL,Vientiane,8,1,2019,83.1
+Asia,Laos,NULL,Vientiane,9,1,2019,81.4
+Asia,Laos,NULL,Vientiane,10,1,2019,84.7
+Asia,Laos,NULL,Vientiane,11,1,2019,79.5
+Asia,Laos,NULL,Vientiane,12,1,2019,79.4
+Asia,Malaysia,NULL,Kuala Lumpur,1,1,2019,81.3
+Asia,Malaysia,NULL,Kuala Lumpur,2,1,2019,84.9
+Asia,Malaysia,NULL,Kuala Lumpur,3,1,2019,82.5
+Asia,Malaysia,NULL,Kuala Lumpur,4,1,2019,83.8
+Asia,Malaysia,NULL,Kuala Lumpur,5,1,2019,86.1
+Asia,Malaysia,NULL,Kuala Lumpur,6,1,2019,80.8
+Asia,Malaysia,NULL,Kuala Lumpur,7,1,2019,85.6
+Asia,Malaysia,NULL,Kuala Lumpur,8,1,2019,81.7
+Asia,Malaysia,NULL,Kuala Lumpur,9,1,2019,84.9
+Asia,Malaysia,NULL,Kuala Lumpur,10,1,2019,79.6
+Asia,Malaysia,NULL,Kuala Lumpur,11,1,2019,83.8
+Asia,Malaysia,NULL,Kuala Lumpur,12,1,2019,80.2
+Asia,Philippines,NULL,Manila,1,1,2019,79.1
+Asia,Philippines,NULL,Manila,2,1,2019,78.6
+Asia,Philippines,NULL,Manila,3,1,2019,80.9
+Asia,Philippines,NULL,Manila,4,1,2019,84
+Asia,Philippines,NULL,Manila,5,1,2019,87.5
+Asia,Philippines,NULL,Manila,6,1,2019,89.5
+Asia,Philippines,NULL,Manila,7,1,2019,79.6
+Asia,Philippines,NULL,Manila,8,1,2019,82.1
+Asia,Philippines,NULL,Manila,9,1,2019,81.3
+Asia,Philippines,NULL,Manila,10,1,2019,84.4
+Asia,Philippines,NULL,Manila,11,1,2019,80.3
+Asia,Philippines,NULL,Manila,12,1,2019,82.2
+Asia,Singapore,NULL,Singapore,1,1,2019,83.6
+Asia,Singapore,NULL,Singapore,2,1,2019,82.7
+Asia,Singapore,NULL,Singapore,3,1,2019,83.4
+Asia,Singapore,NULL,Singapore,4,1,2019,81.7
+Asia,Singapore,NULL,Singapore,5,1,2019,85.6
+Asia,Singapore,NULL,Singapore,6,1,2019,83.1
+Asia,Singapore,NULL,Singapore,7,1,2019,85.2
+Asia,Singapore,NULL,Singapore,8,1,2019,85.2
+Asia,Singapore,NULL,Singapore,9,1,2019,85.2
+Asia,Singapore,NULL,Singapore,10,1,2019,82.9
+Asia,Singapore,NULL,Singapore,11,1,2019,83.2
+Asia,Singapore,NULL,Singapore,12,1,2019,83.1
+Asia,South Korea,NULL,Seoul,1,1,2019,19.9
+Asia,South Korea,NULL,Seoul,4,1,2019,40.5
+Asia,South Korea,NULL,Seoul,2,1,2019,30.2
+Asia,South Korea,NULL,Seoul,5,1,2019,60.6
+Asia,South Korea,NULL,Seoul,6,1,2019,63.7
+Asia,South Korea,NULL,Seoul,3,1,2019,39.6
+Asia,South Korea,NULL,Seoul,11,1,2019,53.2
+Asia,South Korea,NULL,Seoul,7,1,2019,74.7
+Asia,South Korea,NULL,Seoul,8,1,2019,79.6
+Asia,South Korea,NULL,Seoul,9,1,2019,73.8
+Asia,South Korea,NULL,Seoul,10,1,2019,75
+Asia,South Korea,NULL,Seoul,12,1,2019,37.6
+Asia,Taiwan,NULL,Taipei,1,1,2019,61.6
+Asia,Taiwan,NULL,Taipei,2,1,2019,60.3
+Asia,Taiwan,NULL,Taipei,3,1,2019,67.5
+Asia,Taiwan,NULL,Taipei,4,1,2019,63
+Asia,Taiwan,NULL,Taipei,5,1,2019,68.8
+Asia,Taiwan,NULL,Taipei,6,1,2019,81.9
+Asia,Taiwan,NULL,Taipei,7,1,2019,88.8
+Asia,Taiwan,NULL,Taipei,8,1,2019,89.1
+Asia,Taiwan,NULL,Taipei,9,1,2019,88.1
+Asia,Taiwan,NULL,Taipei,10,1,2019,82.4
+Asia,Taiwan,NULL,Taipei,11,1,2019,76
+Asia,Taiwan,NULL,Taipei,12,1,2019,71.8
+Asia,Vietnam,NULL,Hanoi,1,1,2019,53.3
+Asia,Vietnam,NULL,Hanoi,2,1,2019,68.8
+Asia,Vietnam,NULL,Hanoi,3,1,2019,75.1
+Asia,Vietnam,NULL,Hanoi,4,1,2019,70.2
+Asia,Vietnam,NULL,Hanoi,5,1,2019,75.4
+Asia,Vietnam,NULL,Hanoi,6,1,2019,75.1
+Asia,Vietnam,NULL,Hanoi,7,1,2019,84.2
+Asia,Vietnam,NULL,Hanoi,8,1,2019,79.9
+Asia,Vietnam,NULL,Hanoi,9,1,2019,80.8
+Asia,Vietnam,NULL,Hanoi,10,1,2019,83.1
+Asia,Vietnam,NULL,Hanoi,11,1,2019,67.5
+Asia,Vietnam,NULL,Hanoi,12,1,2019,67.8
+Australia/South Pacific,Australia,NULL,Sydney,1,1,2019,68.9
+Australia/South Pacific,Australia,NULL,Sydney,2,1,2019,64
+Australia/South Pacific,Australia,NULL,Sydney,3,1,2019,85.8
+Australia/South Pacific,Australia,NULL,Sydney,4,1,2019,53.1
+Australia/South Pacific,Australia,NULL,Sydney,5,1,2019,66.1
+Australia/South Pacific,Australia,NULL,Sydney,6,1,2019,52.6
+Australia/South Pacific,Australia,NULL,Sydney,7,1,2019,49.3
+Australia/South Pacific,Australia,NULL,Sydney,8,1,2019,49.6
+Australia/South Pacific,Australia,NULL,Sydney,9,1,2019,52.3
+Australia/South Pacific,Australia,NULL,Sydney,10,1,2019,58.2
+Australia/South Pacific,Australia,NULL,Sydney,11,1,2019,75.8
+Australia/South Pacific,Australia,NULL,Sydney,12,1,2019,53.4
+Australia/South Pacific,New Zealand,NULL,Auckland,1,1,2019,69.3
+Australia/South Pacific,New Zealand,NULL,Auckland,4,1,2019,67.6
+Australia/South Pacific,New Zealand,NULL,Auckland,2,1,2019,70.4
+Australia/South Pacific,New Zealand,NULL,Auckland,5,1,2019,53.3
+Australia/South Pacific,New Zealand,NULL,Auckland,6,1,2019,51.7
+Australia/South Pacific,New Zealand,NULL,Auckland,3,1,2019,64.2
+Australia/South Pacific,New Zealand,NULL,Auckland,7,1,2019,56.8
+Australia/South Pacific,New Zealand,NULL,Auckland,8,1,2019,52.5
+Australia/South Pacific,New Zealand,NULL,Auckland,12,1,2019,67.7
+Australia/South Pacific,New Zealand,NULL,Auckland,9,1,2019,52.6
+Australia/South Pacific,New Zealand,NULL,Auckland,10,1,2019,53.2
+Australia/South Pacific,New Zealand,NULL,Auckland,11,1,2019,58
+Europe,Austria,NULL,Vienna,1,1,2019,41.4
+Europe,Austria,NULL,Vienna,2,1,2019,35.9
+Europe,Austria,NULL,Vienna,3,1,2019,52.2
+Europe,Austria,NULL,Vienna,4,1,2019,50.4
+Europe,Austria,NULL,Vienna,5,1,2019,57.5
+Europe,Austria,NULL,Vienna,6,1,2019,68.5
+Europe,Austria,NULL,Vienna,7,1,2019,79.5
+Europe,Austria,NULL,Vienna,8,1,2019,74.6
+Europe,Austria,NULL,Vienna,9,1,2019,74.5
+Europe,Austria,NULL,Vienna,10,1,2019,63.8
+Europe,Austria,NULL,Vienna,11,1,2019,42.7
+Europe,Austria,NULL,Vienna,12,1,2019,33.9
+Europe,Denmark,NULL,Copenhagen,1,1,2019,43.2
+Europe,Denmark,NULL,Copenhagen,2,1,2019,33.6
+Europe,Denmark,NULL,Copenhagen,3,1,2019,34.9
+Europe,Denmark,NULL,Copenhagen,4,1,2019,36.8
+Europe,Denmark,NULL,Copenhagen,5,1,2019,50.8
+Europe,Denmark,NULL,Copenhagen,6,1,2019,59.3
+Europe,Denmark,NULL,Copenhagen,7,1,2019,62.6
+Europe,Denmark,NULL,Copenhagen,8,1,2019,57.3
+Europe,Denmark,NULL,Copenhagen,9,1,2019,64.5
+Europe,Denmark,NULL,Copenhagen,10,1,2019,46.9
+Europe,Denmark,NULL,Copenhagen,11,1,2019,40.1
+Europe,Denmark,NULL,Copenhagen,12,1,2019,34.1
+Europe,Finland,NULL,Helsinki,1,1,2019,35.7
+Europe,Finland,NULL,Helsinki,2,1,2019,24.2
+Europe,Finland,NULL,Helsinki,3,1,2019,21.5
+Europe,Finland,NULL,Helsinki,4,1,2019,36.8
+Europe,Finland,NULL,Helsinki,5,1,2019,46.8
+Europe,Finland,NULL,Helsinki,6,1,2019,54.3
+Europe,Finland,NULL,Helsinki,7,1,2019,69
+Europe,Finland,NULL,Helsinki,8,1,2019,55.5
+Europe,Finland,NULL,Helsinki,9,1,2019,63.3
+Europe,Finland,NULL,Helsinki,10,1,2019,44.8
+Europe,Finland,NULL,Helsinki,11,1,2019,31.2
+Europe,Finland,NULL,Helsinki,12,1,2019,26.9
+Europe,France,NULL,Paris,1,1,2019,46.8
+Europe,France,NULL,Paris,2,1,2019,42.4
+Europe,France,NULL,Paris,3,1,2019,50
+Europe,France,NULL,Paris,4,1,2019,56.1
+Europe,France,NULL,Paris,5,1,2019,53.6
+Europe,France,NULL,Paris,6,1,2019,71.6
+Europe,France,NULL,Paris,7,1,2019,67.7
+Europe,France,NULL,Paris,8,1,2019,70.6
+Europe,France,NULL,Paris,9,1,2019,64.9
+Europe,France,NULL,Paris,10,1,2019,62.6
+Europe,France,NULL,Paris,11,1,2019,53.1
+Europe,France,NULL,Paris,12,1,2019,38.2
+Europe,Germany,NULL,Munich,1,1,2019,39.4
+Europe,Germany,NULL,Munich,2,1,2019,32.4
+Europe,Germany,NULL,Munich,3,1,2019,44.8
+Europe,Germany,NULL,Munich,4,1,2019,49.9
+Europe,Germany,NULL,Munich,5,1,2019,51.2
+Europe,Germany,NULL,Munich,6,1,2019,63.1
+Europe,Germany,NULL,Munich,7,1,2019,72.5
+Europe,Germany,NULL,Munich,8,1,2019,66.5
+Europe,Germany,NULL,Munich,9,1,2019,69
+Europe,Germany,NULL,Munich,10,1,2019,58.8
+Europe,Germany,NULL,Munich,11,1,2019,41.7
+Europe,Germany,NULL,Munich,12,1,2019,32.4
+Europe,Italy,NULL,Rome,1,1,2019,47.9
+Europe,Italy,NULL,Rome,2,1,2019,56.5
+Europe,Italy,NULL,Rome,3,1,2019,53
+Europe,Italy,NULL,Rome,4,1,2019,53
+Europe,Italy,NULL,Rome,5,1,2019,56.2
+Europe,Italy,NULL,Rome,6,1,2019,65.4
+Europe,Italy,NULL,Rome,7,1,2019,78.9
+Europe,Italy,NULL,Rome,8,1,2019,76.8
+Europe,Italy,NULL,Rome,9,1,2019,77.6
+Europe,Italy,NULL,Rome,10,1,2019,72.2
+Europe,Italy,NULL,Rome,11,1,2019,64.1
+Europe,Italy,NULL,Rome,12,1,2019,54
+Europe,Norway,NULL,Oslo,1,1,2019,38.6
+Europe,Norway,NULL,Oslo,2,1,2019,24.9
+Europe,Norway,NULL,Oslo,3,1,2019,31.7
+Europe,Norway,NULL,Oslo,4,1,2019,32.2
+Europe,Norway,NULL,Oslo,5,1,2019,51.3
+Europe,Norway,NULL,Oslo,6,1,2019,50.7
+Europe,Norway,NULL,Oslo,7,1,2019,62.9
+Europe,Norway,NULL,Oslo,8,1,2019,61.8
+Europe,Norway,NULL,Oslo,9,1,2019,57.9
+Europe,Norway,NULL,Oslo,10,1,2019,43.6
+Europe,Norway,NULL,Oslo,11,1,2019,28.1
+Europe,Norway,NULL,Oslo,12,1,2019,13.7
+Europe,Russia,NULL,Moscow,1,1,2019,24.3
+Europe,Russia,NULL,Moscow,2,1,2019,25.5
+Europe,Russia,NULL,Moscow,3,1,2019,29.9
+Europe,Russia,NULL,Moscow,4,1,2019,36.1
+Europe,Russia,NULL,Moscow,5,1,2019,50.1
+Europe,Russia,NULL,Moscow,6,1,2019,63.7
+Europe,Russia,NULL,Moscow,7,1,2019,67.8
+Europe,Russia,NULL,Moscow,8,1,2019,54.4
+Europe,Russia,NULL,Moscow,9,1,2019,63.4
+Europe,Russia,NULL,Moscow,10,1,2019,53.4
+Europe,Russia,NULL,Moscow,11,1,2019,29.5
+Europe,Russia,NULL,Moscow,12,1,2019,25.8
+Europe,Spain,NULL,Barcelona,1,1,2019,49.6
+Europe,Spain,NULL,Barcelona,2,1,2019,55.4
+Europe,Spain,NULL,Barcelona,3,1,2019,53.2
+Europe,Spain,NULL,Barcelona,4,1,2019,56.9
+Europe,Spain,NULL,Barcelona,5,1,2019,60.3
+Europe,Spain,NULL,Barcelona,6,1,2019,67.5
+Europe,Spain,NULL,Barcelona,7,1,2019,76.8
+Europe,Spain,NULL,Barcelona,8,1,2019,78.1
+Europe,Spain,NULL,Barcelona,9,1,2019,77.6
+Europe,Spain,NULL,Barcelona,10,1,2019,72.2
+Europe,Spain,NULL,Barcelona,11,1,2019,62.4
+Europe,Spain,NULL,Barcelona,12,1,2019,56.5
+Europe,United Kingdom,NULL,Belfast,5,1,2019,52.3
+Europe,United Kingdom,NULL,Belfast,1,1,2019,46
+Europe,United Kingdom,NULL,Belfast,2,1,2019,36.4
+Europe,United Kingdom,NULL,Belfast,3,1,2019,48.4
+Europe,United Kingdom,NULL,Belfast,4,1,2019,45.6
+Europe,United Kingdom,NULL,Belfast,8,1,2019,62.5
+Europe,United Kingdom,NULL,Belfast,9,1,2019,54.3
+Europe,United Kingdom,NULL,Belfast,6,1,2019,56.8
+Europe,United Kingdom,NULL,Belfast,10,1,2019,50.2
+Europe,United Kingdom,NULL,Belfast,7,1,2019,57.8
+Europe,United Kingdom,NULL,Belfast,11,1,2019,54
+Europe,United Kingdom,NULL,Belfast,12,1,2019,38.2
+Europe,United Kingdom,NULL,London,1,1,2019,47.3
+Europe,United Kingdom,NULL,London,2,1,2019,34.7
+Europe,United Kingdom,NULL,London,3,1,2019,49.1
+Europe,United Kingdom,NULL,London,4,1,2019,47
+Europe,United Kingdom,NULL,London,5,1,2019,53.3
+Europe,United Kingdom,NULL,London,6,1,2019,66.6
+Europe,United Kingdom,NULL,London,7,1,2019,64.6
+Europe,United Kingdom,NULL,London,8,1,2019,68.1
+Europe,United Kingdom,NULL,London,9,1,2019,60.6
+Europe,United Kingdom,NULL,London,10,1,2019,60.2
+Europe,United Kingdom,NULL,London,11,1,2019,55.6
+Europe,United Kingdom,NULL,London,12,1,2019,39.1
+Middle East,Turkey,NULL,Istanbul,1,1,2019,44.6
+Middle East,Turkey,NULL,Istanbul,2,1,2019,48.8
+Middle East,Turkey,NULL,Istanbul,3,1,2019,50
+Middle East,Turkey,NULL,Istanbul,4,1,2019,50.6
+Middle East,Turkey,NULL,Istanbul,5,1,2019,64
+Middle East,Turkey,NULL,Istanbul,6,1,2019,72.3
+Middle East,Turkey,NULL,Istanbul,7,1,2019,75.9
+Middle East,Turkey,NULL,Istanbul,8,1,2019,82.9
+Middle East,Turkey,NULL,Istanbul,9,1,2019,77.5
+Middle East,Turkey,NULL,Istanbul,10,1,2019,72.1
+Middle East,Turkey,NULL,Istanbul,11,1,2019,56.5
+Middle East,Turkey,NULL,Istanbul,12,1,2019,49
+North America,Canada,NULL,Quebec,1,1,2019,26.9
+North America,Canada,NULL,Quebec,2,1,2019,-3
+North America,Canada,NULL,Quebec,3,1,2019,2.7
+North America,Canada,NULL,Quebec,4,1,2019,27.4
+North America,Canada,NULL,Quebec,5,1,2019,37.6
+North America,Canada,NULL,Quebec,6,1,2019,54.2
+North America,Canada,NULL,Quebec,7,1,2019,61.2
+North America,Canada,NULL,Quebec,8,1,2019,70.3
+North America,Canada,NULL,Quebec,9,1,2019,55.4
+North America,Canada,NULL,Quebec,10,1,2019,47.4
+North America,Canada,NULL,Quebec,11,1,2019,41.8
+North America,Canada,NULL,Quebec,12,1,2019,10.1
+North America,Mexico,NULL,Mexico City,1,1,2019,58.6
+North America,Mexico,NULL,Mexico City,2,1,2019,60
+North America,Mexico,NULL,Mexico City,3,1,2019,68.2
+North America,Mexico,NULL,Mexico City,4,1,2019,69
+North America,Mexico,NULL,Mexico City,5,1,2019,66.3
+North America,Mexico,NULL,Mexico City,6,1,2019,69.1
+North America,Mexico,NULL,Mexico City,7,1,2019,62.9
+North America,Mexico,NULL,Mexico City,8,1,2019,64.4
+North America,Mexico,NULL,Mexico City,9,1,2019,65.6
+North America,Mexico,NULL,Mexico City,10,1,2019,64.2
+North America,Mexico,NULL,Mexico City,11,1,2019,58.7
+North America,Mexico,NULL,Mexico City,12,1,2019,65.4
+South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,1,1,2019,82.9
+South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,2,1,2019,84.7
+South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,3,1,2019,82.1
+South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,4,1,2019,79
+South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,5,1,2019,79
+South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,6,1,2019,79
+South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,7,1,2019,79.9
+South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,8,1,2019,73.3
+South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,9,1,2019,76.6
+South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,10,1,2019,74.3
+South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,11,1,2019,80.5
+South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,12,1,2019,77
+North America,US (LA),California,Los Angeles,1,1,2019,53.7
+North America,US (LA),California,Los Angeles,2,1,2019,55.4
+North America,US (LA),California,Los Angeles,3,1,2019,58.5
+North America,US (LA),California,Los Angeles,4,1,2019,68.8
+North America,US (LA),California,Los Angeles,5,1,2019,60.5
+North America,US (LA),California,Los Angeles,6,1,2019,61.5
+North America,US (LA),California,Los Angeles,7,1,2019,68.7
+North America,US (LA),California,Los Angeles,8,1,2019,66.8
+North America,US (LA),California,Los Angeles,9,1,2019,72.7
+North America,US (LA),California,Los Angeles,10,1,2019,66.7
+North America,US (LA),California,Los Angeles,11,1,2019,66.7
+North America,US (LA),California,Los Angeles,12,1,2019,56.9
