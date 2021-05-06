@@ -34,10 +34,6 @@ session = Session(engine)
 def create_json(dict, key, value):
     dict[key].append(value)
 
-
-
-
-
 ## Flask App ##
 app = Flask(__name__)
 
