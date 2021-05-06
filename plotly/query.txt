@@ -1,0 +1,4 @@
+select country, max(avgtemperature), min(avgtemperature) from public.city_temperature
+where (country = 'US' or country = 'China' or country = 'Russia' or country = 'Egypt' or country = 'Australia' or country = 'UK' or country = 'Canada') 
+and (year = 1995) and (month = 7 or month = 1)
+group by country
