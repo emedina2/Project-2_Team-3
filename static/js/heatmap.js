@@ -32,13 +32,13 @@ d3.json(monthlyWeatherData).then(function(response) {
     // var filtered = filterMonthYear(response, 1, 1995)
     // console.log(filtered)
     let filtered = response.filter(function (currentElement) {
-      return currentElement.year === 1995 && currentElement.month === 1;
+      return currentElement.year === 1995 && currentElement.month === 7;
     })
     console.log(filtered)
     var heatArray = [];
     for (var i = 0; i < filtered.length; i++) {
       if(filtered[i].latitude){
-      heatArray.push([parseFloat(filtered[i].latitude), parseFloat(filtered[i].longitude)]);
+      heatArray.push([parseFloat(filtered[i].latitude), parseFloat(filtered[i].longitude), filtered[i].month_avg_temp]);
       }
     }
     console.log(heatArray)    

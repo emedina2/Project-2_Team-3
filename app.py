@@ -30,10 +30,6 @@ session = Session(engine)
 # print(engine.table_names())
 # print(Locations)
 
-##function to create dictionary items for json object
-def create_json(dict, key, value):
-    dict[key].append(value)
-
 ## Flask App ##
 app = Flask(__name__)
 
@@ -63,12 +59,12 @@ def getdata():
 
 @app.route("/Graphs")
 def showgraphs():
-    return render_template("visualizations.html")
+    return render_template("2019.html")
 
 @app.route("/Map")
 def index():
     
-    return render_template("index.html")
+    return render_template("heatmap.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
