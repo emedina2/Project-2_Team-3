@@ -1,6 +1,6 @@
 var myMap = L.map("map", {
     center: [0, 0],
-    zoom: 2
+    zoom: 3
   });
   
 // Adding a tile layer (the background map image) to our map
@@ -26,28 +26,32 @@ function filterMonthYear (data, m, y) {
 };
 
 d3.json(monthlyWeatherData).then(function(response) {
-    console.log(response);
+    // console.log(response);
     // var filtered = filterMonthYear(response, 1, 1995)
     // console.log(filtered)
-    let filtered = response.filter(function (currentElement) {
-      return currentElement.year === 1995 && currentElement.month === 7;
-    })
-    // console.log(filtered)
-    var heatArray = [];
-    for (var i = 0; i < filtered.length; i++) {
-      if(filtered[i].latitude){
-      heatArray.push([ parseFloat(filtered[i].latitude),parseFloat(filtered[i].longitude), filtered[i].month_avg_temp]);
+    for (y = 1995; y < 2020; y++){
+      for(m = 1; m < 13; m++){      
+        let filtered = response.filter(function (currentElement) {
+          return currentElement.year === y && currentElement.month === m;
+        })
+        // console.log(filtered)
+        var heatArray = [];
+        for (var i = 0; i < filtered.length; i++) {
+          if(filtered[i].latitude){
+          heatArray.push([ parseFloat(filtered[i].latitude),parseFloat(filtered[i].longitude), filtered[i].month_avg_temp]);
+          }
+        }
+        console.log(heatArray)  
+        var heat = L.heatLayer(heatArray, {
+          radius: 50,
+          blur: 15
+          
+        })
+          
+        setTimeout(function(){
+          myMap.addLayer(heat);
+        },50)
       }
     }
-    // console.log(heatArray)  
-    var heat = L.heatLayer(heatArray, {
-      radius: 50,
-      blur: 15
-      
-    })
-       
-    setTimeout(function(){
-      myMap.addLayer(heat);
-    },50)
     //.addTo(myMap);
 });
