@@ -25,8 +25,6 @@ function filterMonthYear (data, m, y) {
   });
 };
 
-
-
 d3.json(monthlyWeatherData).then(function(response) {
     console.log(response);
     // var filtered = filterMonthYear(response, 1, 1995)
@@ -34,19 +32,20 @@ d3.json(monthlyWeatherData).then(function(response) {
     let filtered = response.filter(function (currentElement) {
       return currentElement.year === 1995 && currentElement.month === 7;
     })
-    console.log(filtered)
+    // console.log(filtered)
     var heatArray = [];
     for (var i = 0; i < filtered.length; i++) {
       if(filtered[i].latitude){
-      heatArray.push([parseFloat(filtered[i].latitude), parseFloat(filtered[i].longitude), filtered[i].month_avg_temp]);
+      heatArray.push([ parseFloat(filtered[i].latitude),parseFloat(filtered[i].longitude), filtered[i].month_avg_temp]);
       }
     }
-    console.log(heatArray)    
+    // console.log(heatArray)  
     var heat = L.heatLayer(heatArray, {
       radius: 50,
       blur: 15
       
     })
+       
     setTimeout(function(){
       myMap.addLayer(heat);
     },50)

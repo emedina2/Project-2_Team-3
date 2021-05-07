@@ -18,13 +18,13 @@ metadata = MetaData()
 # weather = Table('weather',metadata, Column('ID', String, primary_key=True), autoload=True, autoload_with=engine)
 # locations = Table('locations',metadata, Column('city_state_country', String, primary_key=True), autoload=True, autoload_with=engine)
 monthly = Table('monthly_averages',metadata, Column('id', String, primary_key=True), autoload=True, autoload_with=engine)
-yearly = Table('yearly_averages',metadata, Column('id', String, primary_key=True), autoload=True, autoload_with=engine)
+# yearly = Table('yearly_averages',metadata, Column('id', String, primary_key=True), autoload=True, autoload_with=engine)
 
 Base.prepare(engine, reflect=True)
 
 
 ##DB Table
-Locations = Base.classes.locations
+# Locations = Base.classes.locations
 session = Session(engine)
 # print(Weather)
 # print(engine.table_names())

@@ -1,5 +1,5 @@
 
-Plotly.d3.csv('../static/data/data2019.csv', function(err, rows){
+d3.json('/api/monthly').then(function(data){
 
     function unpack(rows, key) {
         return rows.map(function(row) { return row[key]; });
@@ -7,7 +7,7 @@ Plotly.d3.csv('../static/data/data2019.csv', function(err, rows){
 
 var allCountryNames = unpack(rows, 'country'),
     allYear = unpack(rows, 'month'),
-    allTemp = unpack(rows, 'avgtemperature'),
+    allTemp = unpack(rows, 'month_avg_temp'),
     listofCountries = [],
     currentCountry,
     currentTemp = [],
