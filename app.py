@@ -70,16 +70,6 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 
-
-
-
-
-
-
-
-
-
-
 ## Get Lat/LNG for cities
 # apikey = api_key
 # url = "http://api.openweathermap.org/geo/1.0/direct?appid={apikey}&result=1&q=" 
