@@ -59,12 +59,13 @@ d3.json(monthlyWeatherData).then(function(response) {
           if(filtered[i].latitude){
               // heatArray.push([ parseFloat(filtered[i].latitude),parseFloat(filtered[i].longitude)]);
               L.circle([parseFloat(filtered[i].latitude),parseFloat(filtered[i].longitude)], {
+                weight:9,
                 color: selectColor(filtered[i].month_avg_temp),
                 fillColor: selectColor(filtered[i].month_avg_temp),
                 fillOpacity: .5,
-                radius: 50
-              }).bindPopup("<h3><b> Country: </b>" + filtered[i].country +
-              "</h3><hr><p><b> City: </b>" + filtered[i].city + "</p>" +
+                radius: 5000
+              }).bindPopup("<h3><b> Country: </b>" + filtered[i].country +"</h3> <hr>" + 
+              "<p><b> City: </b>" + filtered[i].city + "</p>" +
               "<p><b> Year: </b>" +filtered[i].year + "</p>"+
               "<p><b> Temperature (F): </b>" + filtered[i].month_avg_temp + "</p>").addTo(myMap)
             }
