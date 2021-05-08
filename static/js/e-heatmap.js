@@ -100,10 +100,10 @@ d3.json(monthlyWeatherData).then(function (response) {
           )
         }
       }
+      var cityLayer = L.layerGroup(heatArray)
       setTimeout(function () {
-        var cityLayer = L.layerGroup(heatArray)
         myMap.addLayer(cityLayer)
-      }, 50);
+      }, 500);
     }
   }
   // console.log(heatArray)  
