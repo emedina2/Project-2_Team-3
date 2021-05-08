@@ -36,6 +36,34 @@ function selectColor(value) {
   }
 };
 
+function month(value) {
+  if (value = 1) {
+    return "January"
+  } else if (value = 2) {
+    return "February"
+  } else if (value = 3) {
+    return "March"
+  } else if (value = 4) {
+    return "April"
+  } else if (value = 5) {
+    return "May"
+  } else if (value = 6) {
+    return "June"
+  } else if (value = 7) {
+    return "July"
+  } else if (value = 8) {
+    return "August"
+  } else if (value = 9) {
+    return "September"
+  } else if (value = 10) {
+    return "October"
+  } else if (value = 11) {
+    return "November"
+  } else if (value = 12) {
+    return "December"
+  }
+};
+
 // function to grab data for specific month & year
 function filterMonthYear(data, m, y) {
   var results = [];
@@ -48,36 +76,40 @@ d3.json(monthlyWeatherData).then(function (response) {
   // console.log(response);
   // var filtered = filterMonthYear(response, 1, 1995)
   // console.log(filtered)
-  // for (y = 1995; y < 2020; y++){
-  //   for(m = 1; m < 13; m++){    
-  var y = 1995;
-  var m = 7;
-  let filtered = response.filter(function (currentElement) {
-    return currentElement.year === y && currentElement.month === m;
-  })
-  // console.log(filtered)
-  var heatArray = [];
-  for (var i = 0; i < filtered.length; i++) {
-    if (filtered[i].latitude) {
-      // heatArray.push([ parseFloat(filtered[i].latitude),parseFloat(filtered[i].longitude)]);
-      L.circle([parseFloat(filtered[i].latitude), parseFloat(filtered[i].longitude)], {
-        weight: 9,
-        color: selectColor(filtered[i].month_avg_temp),
-        fillColor: selectColor(filtered[i].month_avg_temp),
-        fillOpacity: .5,
-        radius: 5000
-      }).bindPopup("<h3><b> Country: </b>" + filtered[i].country + "</h3> <hr>" +
-        "<p><b> City: </b>" + filtered[i].city + "</p>" +
-        "<p><b> Year: </b>" + filtered[i].year + "</p>" +
-        "<p><b> Temperature (F): </b>" + filtered[i].month_avg_temp + "</p>").addTo(myMap)
+  for (y = 1995; y < 2020; y++) {
+    for (m = 1; m < 13; m++) {
+      // var y = 1995;
+      // var m = 7;
+      let filtered = response.filter(function (currentElement) {
+        return currentElement.year === y && currentElement.month === m;
+      })
+      // console.log(filtered)
+      var heatArray = [];
+      for (var i = 0; i < filtered.length; i++) {
+        if (filtered[i].latitude) {
+          // heatArray.push([ parseFloat(filtered[i].latitude),parseFloat(filtered[i].longitude)]);
+          heatArray.push(L.circle([parseFloat(filtered[i].latitude), parseFloat(filtered[i].longitude)], {
+            weight: 8,
+            color: selectColor(filtered[i].month_avg_temp),
+            fillColor: selectColor(filtered[i].month_avg_temp),
+            fillOpacity: .8,
+            radius: 500
+          }).bindPopup("<h3><b> Location: </b>" + filtered[i].city + ", " + filtered[i].country + "</h3> <hr>" +
+            "<p><b> Date: </b>" + month(filtered[i].month) + ", " + filtered[i].year + "</p>" +
+            "<p><b> Temperature (F): </b>" + filtered[i].month_avg_temp + "</p>")
+          )
+        }
+      }
+      setTimeout(function () {
+        var cityLayer = L.layerGroup(heatArray)
+        myMap.addLayer(cityLayer)
+      }, 50);
     }
   }
-
   // console.log(heatArray)  
   // var heat = L.heatLayer(heatArray, {
   //   radius: 50,
-  //   blur: 15          
-
+  //   blur: 15   
   // var heat = L.circle          
   // setTimeout(function(){
   //   myMap.addLayer(heat);
