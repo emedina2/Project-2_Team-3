@@ -35,18 +35,6 @@ Africa,Ethiopia,NULL,Addis Ababa,9,1,1995,59.9
 Africa,Ethiopia,NULL,Addis Ababa,10,1,1995,63
 Africa,Ethiopia,NULL,Addis Ababa,11,1,1995,60.6
 Africa,Ethiopia,NULL,Addis Ababa,12,1,1995,61.5
-Africa,Kenya,NULL,Nairobi,1,1,1995,-99
-Africa,Kenya,NULL,Nairobi,2,1,1995,66.5
-Africa,Kenya,NULL,Nairobi,3,1,1995,73
-Africa,Kenya,NULL,Nairobi,4,1,1995,67.7
-Africa,Kenya,NULL,Nairobi,5,1,1995,67.9
-Africa,Kenya,NULL,Nairobi,6,1,1995,68.9
-Africa,Kenya,NULL,Nairobi,7,1,1995,-99
-Africa,Kenya,NULL,Nairobi,8,1,1995,62.8
-Africa,Kenya,NULL,Nairobi,9,1,1995,70.3
-Africa,Kenya,NULL,Nairobi,10,1,1995,63.6
-Africa,Kenya,NULL,Nairobi,11,1,1995,71.5
-Africa,Kenya,NULL,Nairobi,12,1,1995,-99
 Africa,Morocco,NULL,Rabat,1,1,1995,59.6
 Africa,Morocco,NULL,Rabat,2,1,1995,57.4
 Africa,Morocco,NULL,Rabat,3,1,1995,57.8
@@ -67,10 +55,10 @@ Africa,Madagascar,NULL,Antananarivo,5,1,1995,67.3
 Africa,Madagascar,NULL,Antananarivo,6,1,1995,64.3
 Africa,Madagascar,NULL,Antananarivo,7,1,1995,57.4
 Africa,Madagascar,NULL,Antananarivo,8,1,1995,57.4
-Africa,Madagascar,NULL,Antananarivo,11,1,1995,66.5
-Africa,Madagascar,NULL,Antananarivo,12,1,1995,77.7
 Africa,Madagascar,NULL,Antananarivo,9,1,1995,58.9
 Africa,Madagascar,NULL,Antananarivo,10,1,1995,62.9
+Africa,Madagascar,NULL,Antananarivo,11,1,1995,66.5
+Africa,Madagascar,NULL,Antananarivo,12,1,1995,77.7
 Africa,Nigeria,NULL,Niamey,1,1,1995,74
 Africa,Nigeria,NULL,Niamey,2,1,1995,76
 Africa,Nigeria,NULL,Niamey,3,1,1995,87.3
@@ -119,18 +107,6 @@ Asia,India,NULL,Delhi,9,1,1995,86.1
 Asia,India,NULL,Delhi,10,1,1995,86.2
 Asia,India,NULL,Delhi,11,1,1995,70.5
 Asia,India,NULL,Delhi,12,1,1995,55.7
-Asia,Indonesia,NULL,Jakarta,1,1,1995,85
-Asia,Indonesia,NULL,Jakarta,2,1,1995,-99
-Asia,Indonesia,NULL,Jakarta,3,1,1995,79.9
-Asia,Indonesia,NULL,Jakarta,4,1,1995,82.5
-Asia,Indonesia,NULL,Jakarta,5,1,1995,81.1
-Asia,Indonesia,NULL,Jakarta,6,1,1995,82.2
-Asia,Indonesia,NULL,Jakarta,7,1,1995,-99
-Asia,Indonesia,NULL,Jakarta,8,1,1995,85.6
-Asia,Indonesia,NULL,Jakarta,9,1,1995,-99
-Asia,Indonesia,NULL,Jakarta,10,1,1995,-99
-Asia,Indonesia,NULL,Jakarta,11,1,1995,84.5
-Asia,Indonesia,NULL,Jakarta,12,1,1995,81.7
 Asia,Japan,NULL,Tokyo,1,1,1995,43
 Asia,Japan,NULL,Tokyo,2,1,1995,41.2
 Asia,Japan,NULL,Tokyo,3,1,1995,45.8
@@ -323,18 +299,6 @@ Europe,Germany,NULL,Munich,9,1,1995,50.1
 Europe,Germany,NULL,Munich,10,1,1995,49.1
 Europe,Germany,NULL,Munich,11,1,1995,48.2
 Europe,Germany,NULL,Munich,12,1,1995,31.5
-Europe,Ireland,NULL,Dublin,1,1,1995,34.3
-Europe,Ireland,NULL,Dublin,6,1,1995,52.5
-Europe,Ireland,NULL,Dublin,7,1,1995,57.5
-Europe,Ireland,NULL,Dublin,8,1,1995,67
-Europe,Ireland,NULL,Dublin,2,1,1995,41.9
-Europe,Ireland,NULL,Dublin,3,1,1995,36.2
-Europe,Ireland,NULL,Dublin,4,1,1995,55.6
-Europe,Ireland,NULL,Dublin,5,1,1995,52.6
-Europe,Ireland,NULL,Dublin,9,1,1995,60.3
-Europe,Ireland,NULL,Dublin,10,1,1995,54.9
-Europe,Ireland,NULL,Dublin,11,1,1995,50.2
-Europe,Ireland,NULL,Dublin,12,1,1995,50.5
 Europe,Italy,NULL,Rome,1,1,1995,58.3
 Europe,Italy,NULL,Rome,2,1,1995,43.1
 Europe,Italy,NULL,Rome,3,1,1995,50
@@ -431,11 +395,11 @@ North America,Mexico,NULL,Mexico City,9,1,1995,62.5
 North America,Mexico,NULL,Mexico City,10,1,1995,63.5
 North America,Mexico,NULL,Mexico City,11,1,1995,65.1
 North America,Mexico,NULL,Mexico City,12,1,1995,61.5
-South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,5,1,1995,77
 South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,1,1,1995,84.7
 South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,2,1,1995,80.7
 South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,3,1,1995,86.3
 South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,4,1,1995,83.1
+South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,5,1,1995,77
 South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,6,1,1995,72.2
 South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,7,1,1995,70.2
 South/Central America & Carribean,Brazil,NULL,Rio de Janeiro,8,1,1995,72.8

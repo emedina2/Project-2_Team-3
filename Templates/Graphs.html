@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Comparisons 1995 vs 2019</title>
+  <!--Plotly.js-->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<!-- <head> -->  
+  <!-- Leaflet CSS -->
+  <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin="" />
+  <link rel="stylesheet" href="../static/css/heatmap.css"> -->
+  <!-- Our CSS -->
+  <!-- <link rel="stylesheet" type="text/css" href="static/css/heatmap.css"> -->
+<!-- </head> --> 
+
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <a href="/"> Dashboard</a>
+      <a href="/Graphs"> 1995 vs 2019 Temperatures</a>
+      <a href="/Map"> Global Temperatures</a>
+    </nav>
+  <div class="showcase__section" id="bubble">
+    <div class="spacer --small"></div>
+    <div id="linegraphs">
+      <div class="linegraph" data-num="0">
+        <div class="plot" id="plotdiv1"></div>
+        <div class="control-row">
+          Country: <select class="countrydata">
+          </select>
+        </div>
+        <div class="plot" id="plotdiv2"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="../static/js/application.js"></script>
+
+</body>

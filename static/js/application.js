@@ -160,7 +160,7 @@ function assignOptions(textArray, selector) {
     }
 }
 
-assignOptions(listofCountries, countrySelector);
+// assignOptions(listofCountries, countrySelector);
 
 function updateCountry(){
     setBubblePlot(countrySelector.value);

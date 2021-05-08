@@ -34,18 +34,6 @@ Africa,Ethiopia,NULL,Addis Ababa,9,1,2019,62.8
 Africa,Ethiopia,NULL,Addis Ababa,10,1,2019,60.7
 Africa,Ethiopia,NULL,Addis Ababa,11,1,2019,64.2
 Africa,Ethiopia,NULL,Addis Ababa,12,1,2019,61.3
-Africa,Kenya,NULL,Nairobi,1,1,2019,67.6
-Africa,Kenya,NULL,Nairobi,2,1,2019,73.3
-Africa,Kenya,NULL,Nairobi,3,1,2019,75.3
-Africa,Kenya,NULL,Nairobi,4,1,2019,73.3
-Africa,Kenya,NULL,Nairobi,5,1,2019,70.1
-Africa,Kenya,NULL,Nairobi,6,1,2019,68.6
-Africa,Kenya,NULL,Nairobi,7,1,2019,67.5
-Africa,Kenya,NULL,Nairobi,8,1,2019,66.9
-Africa,Kenya,NULL,Nairobi,9,1,2019,66.6
-Africa,Kenya,NULL,Nairobi,10,1,2019,69.5
-Africa,Kenya,NULL,Nairobi,11,1,2019,67.7
-Africa,Kenya,NULL,Nairobi,12,1,2019,65
 Africa,Morocco,NULL,Rabat,1,1,2019,50.6
 Africa,Morocco,NULL,Rabat,2,1,2019,57.7
 Africa,Morocco,NULL,Rabat,3,1,2019,53.3
@@ -82,18 +70,6 @@ Africa,Nigeria,NULL,Niamey,9,1,2019,89.9
 Africa,Nigeria,NULL,Niamey,10,1,2019,85.9
 Africa,Nigeria,NULL,Niamey,11,1,2019,91.6
 Africa,Nigeria,NULL,Niamey,12,1,2019,84.6
-Africa,Nigeria,NULL,Lagos,1,1,2019,84.9
-Africa,Nigeria,NULL,Lagos,2,1,2019,84.1
-Africa,Nigeria,NULL,Lagos,3,1,2019,80.6
-Africa,Nigeria,NULL,Lagos,4,1,2019,86.3
-Africa,Nigeria,NULL,Lagos,5,1,2019,86.6
-Africa,Nigeria,NULL,Lagos,6,1,2019,79.5
-Africa,Nigeria,NULL,Lagos,7,1,2019,77.5
-Africa,Nigeria,NULL,Lagos,8,1,2019,78.6
-Africa,Nigeria,NULL,Lagos,9,1,2019,78.2
-Africa,Nigeria,NULL,Lagos,10,1,2019,76
-Africa,Nigeria,NULL,Lagos,11,1,2019,81
-Africa,Nigeria,NULL,Lagos,12,1,2019,83.3
 Asia,China,NULL,Beijing,1,1,2019,22.7
 Asia,China,NULL,Beijing,2,1,2019,25.3
 Asia,China,NULL,Beijing,3,1,2019,43.2
@@ -130,18 +106,6 @@ Asia,India,NULL,Delhi,9,1,2019,85.8
 Asia,India,NULL,Delhi,10,1,2019,83.6
 Asia,India,NULL,Delhi,11,1,2019,77.8
 Asia,India,NULL,Delhi,12,1,2019,60.2
-Asia,Indonesia,NULL,Jakarta,1,1,2019,79.4
-Asia,Indonesia,NULL,Jakarta,2,1,2019,81.3
-Asia,Indonesia,NULL,Jakarta,3,1,2019,81
-Asia,Indonesia,NULL,Jakarta,4,1,2019,81.5
-Asia,Indonesia,NULL,Jakarta,5,1,2019,83.2
-Asia,Indonesia,NULL,Jakarta,6,1,2019,85.4
-Asia,Indonesia,NULL,Jakarta,7,1,2019,84.1
-Asia,Indonesia,NULL,Jakarta,8,1,2019,83.6
-Asia,Indonesia,NULL,Jakarta,9,1,2019,83.6
-Asia,Indonesia,NULL,Jakarta,10,1,2019,84.3
-Asia,Indonesia,NULL,Jakarta,11,1,2019,83.5
-Asia,Indonesia,NULL,Jakarta,12,1,2019,85.7
 Asia,Japan,NULL,Tokyo,1,1,2019,45.1
 Asia,Japan,NULL,Tokyo,2,1,2019,40.2
 Asia,Japan,NULL,Tokyo,3,1,2019,49.3
@@ -215,16 +179,16 @@ Asia,Singapore,NULL,Singapore,10,1,2019,82.9
 Asia,Singapore,NULL,Singapore,11,1,2019,83.2
 Asia,Singapore,NULL,Singapore,12,1,2019,83.1
 Asia,South Korea,NULL,Seoul,1,1,2019,19.9
-Asia,South Korea,NULL,Seoul,4,1,2019,40.5
 Asia,South Korea,NULL,Seoul,2,1,2019,30.2
+Asia,South Korea,NULL,Seoul,3,1,2019,39.6
+Asia,South Korea,NULL,Seoul,4,1,2019,40.5
 Asia,South Korea,NULL,Seoul,5,1,2019,60.6
 Asia,South Korea,NULL,Seoul,6,1,2019,63.7
-Asia,South Korea,NULL,Seoul,3,1,2019,39.6
-Asia,South Korea,NULL,Seoul,11,1,2019,53.2
 Asia,South Korea,NULL,Seoul,7,1,2019,74.7
 Asia,South Korea,NULL,Seoul,8,1,2019,79.6
 Asia,South Korea,NULL,Seoul,9,1,2019,73.8
 Asia,South Korea,NULL,Seoul,10,1,2019,75
+Asia,South Korea,NULL,Seoul,11,1,2019,53.2
 Asia,South Korea,NULL,Seoul,12,1,2019,37.6
 Asia,Taiwan,NULL,Taipei,1,1,2019,61.6
 Asia,Taiwan,NULL,Taipei,2,1,2019,60.3
@@ -263,17 +227,17 @@ Australia/South Pacific,Australia,NULL,Sydney,10,1,2019,58.2
 Australia/South Pacific,Australia,NULL,Sydney,11,1,2019,75.8
 Australia/South Pacific,Australia,NULL,Sydney,12,1,2019,53.4
 Australia/South Pacific,New Zealand,NULL,Auckland,1,1,2019,69.3
-Australia/South Pacific,New Zealand,NULL,Auckland,4,1,2019,67.6
 Australia/South Pacific,New Zealand,NULL,Auckland,2,1,2019,70.4
+Australia/South Pacific,New Zealand,NULL,Auckland,3,1,2019,64.2
+Australia/South Pacific,New Zealand,NULL,Auckland,4,1,2019,67.6
 Australia/South Pacific,New Zealand,NULL,Auckland,5,1,2019,53.3
 Australia/South Pacific,New Zealand,NULL,Auckland,6,1,2019,51.7
-Australia/South Pacific,New Zealand,NULL,Auckland,3,1,2019,64.2
 Australia/South Pacific,New Zealand,NULL,Auckland,7,1,2019,56.8
 Australia/South Pacific,New Zealand,NULL,Auckland,8,1,2019,52.5
-Australia/South Pacific,New Zealand,NULL,Auckland,12,1,2019,67.7
 Australia/South Pacific,New Zealand,NULL,Auckland,9,1,2019,52.6
 Australia/South Pacific,New Zealand,NULL,Auckland,10,1,2019,53.2
 Australia/South Pacific,New Zealand,NULL,Auckland,11,1,2019,58
+Australia/South Pacific,New Zealand,NULL,Auckland,12,1,2019,67.7
 Europe,Austria,NULL,Vienna,1,1,2019,41.4
 Europe,Austria,NULL,Vienna,2,1,2019,35.9
 Europe,Austria,NULL,Vienna,3,1,2019,52.2
@@ -382,18 +346,6 @@ Europe,Spain,NULL,Barcelona,9,1,2019,77.6
 Europe,Spain,NULL,Barcelona,10,1,2019,72.2
 Europe,Spain,NULL,Barcelona,11,1,2019,62.4
 Europe,Spain,NULL,Barcelona,12,1,2019,56.5
-Europe,United Kingdom,NULL,Belfast,5,1,2019,52.3
-Europe,United Kingdom,NULL,Belfast,1,1,2019,46
-Europe,United Kingdom,NULL,Belfast,2,1,2019,36.4
-Europe,United Kingdom,NULL,Belfast,3,1,2019,48.4
-Europe,United Kingdom,NULL,Belfast,4,1,2019,45.6
-Europe,United Kingdom,NULL,Belfast,8,1,2019,62.5
-Europe,United Kingdom,NULL,Belfast,9,1,2019,54.3
-Europe,United Kingdom,NULL,Belfast,6,1,2019,56.8
-Europe,United Kingdom,NULL,Belfast,10,1,2019,50.2
-Europe,United Kingdom,NULL,Belfast,7,1,2019,57.8
-Europe,United Kingdom,NULL,Belfast,11,1,2019,54
-Europe,United Kingdom,NULL,Belfast,12,1,2019,38.2
 Europe,United Kingdom,NULL,London,1,1,2019,47.3
 Europe,United Kingdom,NULL,London,2,1,2019,34.7
 Europe,United Kingdom,NULL,London,3,1,2019,49.1

@@ -36,7 +36,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     
-    return render_template("home.html")
+    return render_template("Dashboard.html")
 
 @app.route("/api/monthly")
 def getdata():
@@ -59,7 +59,7 @@ def getdata():
 
 @app.route("/Graphs")
 def showgraphs():
-    return render_template("2019.html")
+    return render_template("Graphs.html")
 
 @app.route("/Map")
 def index():
