@@ -62,8 +62,11 @@ d3.json(monthlyWeatherData).then(function(response) {
                 color: selectColor(filtered[i].month_avg_temp),
                 fillColor: selectColor(filtered[i].month_avg_temp),
                 fillOpacity: .5,
-                radius: 250
-              }).addTo(myMap)
+                radius: 50
+              }).bindPopup("<h3><b> Country: </b>" + filtered[i].country +
+              "</h3><hr><p><b> City: </b>" + filtered[i].city + "</p>" +
+              "<p><b> Year: </b>" +filtered[i].year + "</p>"+
+              "<p><b> Temperature (F): </b>" + filtered[i].month_avg_temp + "</p>").addTo(myMap)
             }
           }
         
@@ -71,16 +74,27 @@ d3.json(monthlyWeatherData).then(function(response) {
         // var heat = L.heatLayer(heatArray, {
         //   radius: 50,
         //   blur: 15          
-        // })
 
         // var heat = L.circle          
         // setTimeout(function(){
         //   myMap.addLayer(heat);
         // },50)
-
-        
-
-      // }
+       // }
     // }
     //.addTo(myMap);
 });
+
+//create Legend
+var legend = L.control({ position: "bottomleft" });
+
+legend.onAdd = function(map) {
+  var div = L.DomUtil.create("div", "legend");
+  div.innerHTML += "<h4>Earthquake Depth</h4>";
+  div.innerHTML += '<i style="background: chartreuse"></i><span>-10 - 10</span><br>';
+  div.innerHTML += '<i style="background: greenyellow"></i><span>10 - 30</span><br>';
+  div.innerHTML += '<i style="background: gold"></i><span>30 - 50</span><br>';
+  div.innerHTML += '<i style="background: goldenrod"></i><span>50 - 70</span><br>';
+  div.innerHTML += '<i style="background: orange"></i><span>70 - 90</span><br>';
+  div.innerHTML += '<i style="background: red"></i><span>> 90</span><br>';
+  return div;
+};
