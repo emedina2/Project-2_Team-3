@@ -82,7 +82,7 @@ var cityLayer = []
 function init() {
   d3.json(monthlyWeatherData).then(function (response) {
     console.log(response);
-    console.log(filtered)
+    // console.log(filtered)
 
     let filtered = response.filter(function (currentElement) {
       return currentElement.year === 1995 && currentElement.month === 1;
