@@ -24,7 +24,7 @@ Base.prepare(engine, reflect=True)
 
 
 ##DB Table
-locations = Base.classes.locations
+# locations = Base.classes.locations
 session = Session(engine)
 # print(Weather)
 print(engine.table_names())
@@ -71,27 +71,27 @@ if __name__ == "__main__":
 
 
 ## Get Lat/LNG for cities
-apikey = api_key
-url = "http://api.openweathermap.org/geo/1.0/direct?appid={apikey}&result=1&q=" 
-cities = session.query(locations.city).all()
-countries = session.query(locations.country).all()
-city_id = session.query(locations.id).all()
-pk = session.query(locations.city_state_country)
+# apikey = api_key
+# url = "http://api.openweathermap.org/geo/1.0/direct?appid={apikey}&result=1&q=" 
+# cities = session.query(locations.city).all()
+# countries = session.query(locations.country).all()
+# city_id = session.query(locations.id).all()
+# pk = session.query(locations.city_state_country)
 
-for x in range(len(cities)):
-    csc = pk[x][0]
-    query = url + csc
-    coords = session.query(Locations).get(csc)
-    city = cities[x][0]
-    country = countries[x][0]
-    try:
-        results = requests.get(query).json()
-        print(results[0])
-        coords.longitude = results[0]['lon']
-        coords.latitude = results[0]['lat']
-        session.commit()
-        print(f'{city},{country} coordinates are retrieved')
-    except Exception as e:
-        print(e)
+# for x in range(len(cities)):
+#     csc = pk[x][0]
+#     query = url + csc
+#     coords = session.query(Locations).get(csc)
+#     city = cities[x][0]
+#     country = countries[x][0]
+#     try:
+#         results = requests.get(query).json()
+#         print(results[0])
+#         coords.longitude = results[0]['lon']
+#         coords.latitude = results[0]['lat']
+#         session.commit()
+#         print(f'{city},{country} coordinates are retrieved')
+#     except Exception as e:
+#         print(e)
 
-session.close()
+# session.close()
