@@ -1,7 +1,7 @@
 
 //1995 Plot
-
-Plotly.d3.csv('../static/data/data1995.csv', function(err, rows){
+// static/data/data1995.csv
+Plotly.d3.csv('static/data/data1995.csv', function(err, rows){
 
     function unpack(rows, key) {
         return rows.map(function(row) { return row[key]; });

@@ -16,7 +16,7 @@ engine = create_engine('postgresql://' + login + ":" + password + '@localhost:54
 Base = automap_base()
 metadata = MetaData()
 # weather = Table('weather',metadata, Column('ID', String, primary_key=True), autoload=True, autoload_with=engine)
-# locations = Table('locations',metadata, Column('city_state_country', String, primary_key=True), autoload=True, autoload_with=engine)
+locations = Table('locations',metadata, Column('city_state_country', String, primary_key=True), autoload=True, autoload_with=engine)
 monthly = Table('monthly_averages',metadata, Column('id', String, primary_key=True), autoload=True, autoload_with=engine)
 # yearly = Table('yearly_averages',metadata, Column('id', String, primary_key=True), autoload=True, autoload_with=engine)
 
@@ -24,11 +24,11 @@ Base.prepare(engine, reflect=True)
 
 
 ##DB Table
-# Locations = Base.classes.locations
+locations = Base.classes.locations
 session = Session(engine)
-# print(Weather)
-# print(engine.table_names())
-# print(Locations)
+print(Weather)
+print(engine.table_names())
+print(locations)
 
 ## Flask App ##
 app = Flask(__name__)
@@ -71,27 +71,27 @@ if __name__ == "__main__":
 
 
 ## Get Lat/LNG for cities
-# apikey = api_key
-# url = "http://api.openweathermap.org/geo/1.0/direct?appid={apikey}&result=1&q=" 
-# cities = session.query(Locations.city).all()
-# countries = session.query(Locations.country).all()
-# city_id = session.query(Locations.id).all()
-# pk = session.query(Locations.city_state_country)
+apikey = api_key
+url = "http://api.openweathermap.org/geo/1.0/direct?appid={apikey}&result=1&q=" 
+cities = session.query(locations.city).all()
+countries = session.query(locations.country).all()
+city_id = session.query(locations.id).all()
+pk = session.query(locations.city_state_country)
 
-# for x in range(len(cities)):
-#     csc = pk[x][0]
-#     query = url + csc
-#     coords = session.query(Locations).get(csc)
-#     city = cities[x][0]
-#     country = countries[x][0]
-#     try:
-#         results = requests.get(query).json()
-#         print(results[0])
-#         coords.longitude = results[0]['lon']
-#         coords.latitude = results[0]['lat']
-#         session.commit()
-#         print(f'{city},{country} coordinates are retrieved')
-#     except Exception as e:
-#         print(e)
+for x in range(len(cities)):
+    csc = pk[x][0]
+    query = url + csc
+    coords = session.query(Locations).get(csc)
+    city = cities[x][0]
+    country = countries[x][0]
+    try:
+        results = requests.get(query).json()
+        print(results[0])
+        coords.longitude = results[0]['lon']
+        coords.latitude = results[0]['lat']
+        session.commit()
+        print(f'{city},{country} coordinates are retrieved')
+    except Exception as e:
+        print(e)
 
-# session.close()
+session.close()

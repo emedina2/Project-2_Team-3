@@ -11,7 +11,7 @@ yearDropDown.addEventListener("change", function () {
 })
 var selectedMonth =
   monthDropDown.addEventListener("change", function () {
-    console.log(this.value)
+    // console.log(this.value)
     selectedMonth = this.value
   })
 var button = document.getElementById("#button");
@@ -81,8 +81,8 @@ var data = []
 var cityLayer = []
 function init() {
   d3.json(monthlyWeatherData).then(function (response) {
-    // console.log(response);
-    // console.log(filtered)
+    console.log(response);
+    console.log(filtered)
 
     let filtered = response.filter(function (currentElement) {
       return currentElement.year === 1995 && currentElement.month === 1;
@@ -116,7 +116,7 @@ function init() {
 
 function updateMap() {
   myMap.removeLayer(cityLayer)
-  console.log(selectedYear + ", " + selectedMonth)
+  // console.log(selectedYear + ", " + selectedMonth)
   d3.json(monthlyWeatherData).then(function (response) {
     console.log(response)
     let filtered = response.filter(function (currentElement) {
